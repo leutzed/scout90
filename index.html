@@ -109,6 +109,7 @@ td.heat.highlight{font-weight:800}
 @media(max-width:760px){.chart-grid{grid-template-columns:1fr}#ranking-table .identity{min-width:190px}.identity-line .actions{gap:3px}.identity-line .rank{display:none}}
 .bulk-controls{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
 .bulk-count{color:var(--muted);font-size:14px}
+.bulk-tip{color:var(--muted);font-size:13px}
 .pick-player{width:17px;height:17px;flex:none;padding:0;margin:0;cursor:pointer;accent-color:var(--accent)}
 .bulk-header{display:flex;align-items:center;gap:10px}
 #ranking-table tr:has(.pick-player:checked) td.identity{background:#283e30}
@@ -151,6 +152,7 @@ td.heat.highlight{font-weight:800}
 <div class="toolbar"><strong id="result-count" aria-live="polite"></strong><div class="actions"><button type="button" class="btn" id="clear-filters">Limpar filtros</button><button type="button" class="btn" id="open-hidden">Ocultos (0)</button><button type="button" class="btn" id="open-columns">Colunas</button><button type="button" class="btn" id="open-charts" hidden>Gráficos</button><button type="button" class="btn" id="export-ranking">Exportar CSV</button></div></div>
 <div class="toolbar" id="batch-toolbar">
 <div class="bulk-controls"><span id="batch-count" class="bulk-count" aria-live="polite">0 selecionados</span><button type="button" class="btn" id="hide-picked" disabled>Ocultar selecionados</button><button type="button" class="btn" id="clear-picked" hidden>Desmarcar</button></div>
+<span class="bulk-tip">Shift + clique para marcar um intervalo.</span>
 </div>
 <div class="toolbar"><span class="scale" title="A escala vai do percentil 5 ao 95 quando há variação. As cores indicam a grandeza do valor em cada coluna."><span>Baixo</span><i aria-hidden="true"></i><span>Alto · escala de cada coluna no grupo filtrado</span></span><label style="display:flex;align-items:center"><input id="heat-toggle" type="checkbox" checked style="width:auto;accent-color:var(--accent)"> Colorir células</label></div>
 <div class="table-scroll" tabindex="0" role="region" aria-label="Ranking completo, com rolagem horizontal e vertical"><table id="ranking-table" aria-label="Ranking de jogadores"></table></div>
@@ -318,6 +320,7 @@ const custom = new Map();
 const hiddenKey = "scout90.hidden.v1";
 const hiddenPlayers = new Set(readLocal(hiddenKey, []));
 const pickedPlayers = new Set();
+let pickAnchor = null;
 let selection = [];
 let activePlayer;
 let snapshot = "";
@@ -434,6 +437,7 @@ function profileMatch(row) {
 
 function rebuild() {
   pickedPlayers.clear();
+  pickAnchor = null;
   snapshot = datasetKey(base);
   rows = new Map(base.results.map(row => [playerKey(row), row]));
   selection = selection.filter(key => rows.has(key) && !hiddenPlayers.has(rows.get(key).player.id));
@@ -541,7 +545,7 @@ function renderRanking() {
     const position = scout(row).position;
     const label = "Ocultar " + row.player.name;
     return '<tr><td class="identity"><div class="identity-line"><input type="checkbox" class="pick-player" data-pick-player="' +
-      row.player.id + '" aria-label="Selecionar ' + h(row.player.name + " · " + row.team.name) + '"' +
+      row.player.id + '" data-pick-row="' + playerKey(row) + '" aria-label="Selecionar ' + h(row.player.name + " · " + row.team.name) + '"' +
       (pickedPlayers.has(row.player.id) ? " checked" : "") + '><div style="flex:1"><div class="identity-name"><span class="rank">' +
       (index + 1) + '</span>' + playerButton(row) + '</div><span class="sub">' + h(row.team.name) +
       (position ? " · " + h(position) : "") + '</span></div><div class="actions">' + toggleButton(row,"compare") +
@@ -1088,21 +1092,38 @@ $("clear-filters").addEventListener("click", () => {
   $("minutes").value = 900;
   render();
 });
-$("ranking-table").addEventListener("change", event => {
-  const target = event.target;
-  const id = Number(target.dataset.pickPlayer);
-  if (target.id === "pick-all") {
-    for (const row of lastResults) {
-      if (target.checked) pickedPlayers.add(row.player.id);
-      else pickedPlayers.delete(row.player.id);
-    }
-    for (const input of $("ranking-table").querySelectorAll("[data-pick-player]")) input.checked = target.checked;
-  } else if (id) {
-    if (target.checked) pickedPlayers.add(id);
-    else pickedPlayers.delete(id);
-    for (const input of $("ranking-table").querySelectorAll('[data-pick-player="' + id + '"]')) input.checked = target.checked;
-  } else return;
+function applyPicked(records, checked) {
+  for (const row of records) {
+    if (checked) pickedPlayers.add(row.player.id);
+    else pickedPlayers.delete(row.player.id);
+  }
+  for (const input of $("ranking-table").querySelectorAll("[data-pick-player]")) {
+    input.checked = pickedPlayers.has(Number(input.dataset.pickPlayer));
+  }
   renderPicked();
+}
+
+$("ranking-table").addEventListener("change", event => {
+  if (event.target.id !== "pick-all") return;
+  pickAnchor = null;
+  applyPicked(lastResults,event.target.checked);
+});
+
+$("ranking-table").addEventListener("click", event => {
+  const key = event.target.dataset.pickRow;
+  if (!key) return;
+  const index = lastResults.findIndex(row => playerKey(row) === key);
+  if (index === -1) return;
+  const from = event.shiftKey && pickAnchor
+    ? lastResults.findIndex(row => playerKey(row) === pickAnchor.key) : -1;
+  if (from === -1) {
+    pickAnchor = {key,checked:event.target.checked};
+    applyPicked([lastResults[index]],pickAnchor.checked);
+    return;
+  }
+  const start = Math.min(from,index);
+  const end = Math.max(from,index);
+  applyPicked(lastResults.slice(start,end + 1),pickAnchor.checked);
 });
 
 $("hide-picked").addEventListener("click",() => {
@@ -1110,6 +1131,7 @@ $("hide-picked").addEventListener("click",() => {
 });
 $("clear-picked").addEventListener("click",() => {
   pickedPlayers.clear();
+  pickAnchor = null;
   renderRanking();
   $("pick-all").focus();
 });
