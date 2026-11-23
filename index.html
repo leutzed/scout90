@@ -116,7 +116,8 @@ td.heat.highlight{font-weight:800}
 #ranking-table .identity{min-width:249px}
 @media(max-width:760px){#ranking-table .identity{min-width:207px}.identity-line{gap:6px}.identity-name{gap:5px}}
 .base-controls{display:flex;align-items:end;gap:8px;flex-wrap:wrap}
-.base-controls label{min-width:min(100%,240px)}
+.base-controls .competition-control{min-width:min(100%,230px)}
+.base-controls .season-control{min-width:min(100%,113px)}
 #publish-fields{padding:10px;border:1px solid var(--line);border-radius:8px;margin:8px 0}
 #publish-fields a,#publish-result a{color:var(--accent)}
 #publish-result:empty,#library-status:empty{display:none}
@@ -139,7 +140,8 @@ td.heat.highlight{font-weight:800}
 <main>
 <div class="top">
 <div class="base-controls">
-<label>Campeonato e temporada<select id="dataset" disabled><option>Carregando bases…</option></select></label>
+<label class="competition-control">Competição<select id="competition-select" disabled><option>Carregando bases…</option></select></label>
+<label class="season-control">Temporada<select id="dataset" disabled><option>—</option></select></label>
 <button type="button" class="btn" id="export-dataset" disabled>Baixar JSON</button>
 <button type="button" class="btn primary" id="open-import" disabled>Importar base</button>
 </div>
@@ -1251,8 +1253,10 @@ const githubRepo = "leutzed/scout90";
 const canPublish = location.origin === "https://leutzed.github.io" && location.pathname.startsWith("/scout90/");
 const catalogFile = "campeonatos.json";
 
+const baseLabelKey = value => normalized(value.trim()).replace(/\s+/g," ");
+
 function baseId(competition,season) {
-  return JSON.stringify([competition,season].map(value => normalized(value.trim()).replace(/\s+/g," ")));
+  return JSON.stringify([competition,season].map(baseLabelKey));
 }
 
 function openLibrary() {
@@ -1285,14 +1289,28 @@ function storeBase(record,replace = false) {
   });
 }
 
+function seasonsFor(competition) {
+  return [...library.values()]
+    .filter(record => baseLabelKey(record.competition) === competition)
+    .sort((a,b) => b.season.localeCompare(a.season,"pt-BR",{numeric:true,sensitivity:"base"}));
+}
+
 function refreshLibrary() {
-  const choices = [...library.values()].sort((a,b) =>
-    (a.competition + " " + a.season).localeCompare(b.competition + " " + b.season,"pt-BR"));
-  $("dataset").innerHTML = choices.map(record =>
-    '<option value="' + h(record.id) + '">' + h(record.competition + " · " + record.season) + '</option>').join("") ||
-    "<option>Nenhuma base disponível</option>";
-  $("dataset").value = activeBaseId || "";
-  $("dataset").disabled = libraryBusy || !choices.length;
+  const competitions = new Map([...library.values()].map(record =>
+    [baseLabelKey(record.competition),record.competition]));
+  const choices = [...competitions].sort((a,b) => a[1].localeCompare(b[1],"pt-BR",{sensitivity:"base"}));
+  const competition = activeBaseId ? baseLabelKey(base.competition) : "";
+  const seasons = seasonsFor(competition);
+  $("competition-select").innerHTML = choices.map(([key,label]) =>
+    '<option value="' + h(key) + '">' + h(label) + '</option>').join("") ||
+    "<option>Nenhuma competição disponível</option>";
+  if (competition) $("competition-select").value = competition;
+  $("dataset").innerHTML = seasons.map(record =>
+    '<option value="' + h(record.id) + '">' + h(record.season) + '</option>').join("") ||
+    "<option>—</option>";
+  if (activeBaseId) $("dataset").value = activeBaseId;
+  $("competition-select").disabled = libraryBusy || !choices.length;
+  $("dataset").disabled = libraryBusy || !seasons.length;
   $("open-import").disabled = libraryBusy;
   $("export-dataset").disabled = libraryBusy || !activeBaseId;
 }
@@ -1427,6 +1445,10 @@ async function selectBase(id) {
   }
 }
 
+$("competition-select").addEventListener("change",event => {
+  const [latest] = seasonsFor(event.target.value);
+  if (latest) selectBase(latest.id);
+});
 $("dataset").addEventListener("change",event => selectBase(event.target.value));
 $("publish-option").hidden = !canPublish;
 $("publish-github").addEventListener("change",event => {
