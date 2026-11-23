@@ -98,6 +98,37 @@
             "ar": "ل. لينك",
             "ru": "Л. Линк"
           }
+        },
+        "profile": {
+          "id": 1119887,
+          "name": "Léo Linck",
+          "shortName": "L. Linck",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 194,
+          "birthDate": "2001-03-03",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 3035,
+            "name": "CF Estrela Amadora"
+          },
+          "shirtNumber": 24,
+          "contractUntil": "2027-06-30",
+          "marketValue": {
+            "value": 2600000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1119887",
+          "fetchedAt": "2026-11-23T22:32:42.920Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1119887/image"
         }
       },
       "team": {
@@ -221,6 +252,37 @@
             "ar": "إيفان",
             "ru": "Иван"
           }
+        },
+        "profile": {
+          "id": 795029,
+          "name": "Ivan",
+          "shortName": "Ivan",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 195,
+          "birthDate": "1997-02-07",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 2012,
+            "name": "Remo"
+          },
+          "shirtNumber": 97,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 650000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/795029",
+          "fetchedAt": "2026-11-23T22:32:44.118Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/795029/image"
         }
       },
       "team": {
@@ -344,6 +406,34 @@
             "ar": "إ. بانتر",
             "ru": "Г. Вернер"
           }
+        },
+        "profile": {
+          "id": 1175672,
+          "name": "Gabriel Werner",
+          "shortName": "G. Werner",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 191,
+          "birthDate": "2003-07-14",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 21845,
+            "name": "Chapecoense"
+          },
+          "shirtNumber": 14,
+          "contractUntil": "2027-03-31",
+          "marketValue": null,
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1175672",
+          "fetchedAt": "2026-11-23T22:32:45.315Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1175672/image"
         }
       },
       "team": {
@@ -471,6 +561,38 @@
             "hi": "नेमार",
             "ru": "Неймар"
           }
+        },
+        "profile": {
+          "id": 124712,
+          "name": "Neymar",
+          "shortName": "Neymar",
+          "position": "F",
+          "positionsDetailed": [
+            "AM",
+            "ST"
+          ],
+          "heightCm": 175,
+          "birthDate": "1992-02-05",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1968,
+            "name": "Santos"
+          },
+          "shirtNumber": 10,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 8500000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/124712",
+          "fetchedAt": "2026-11-23T22:17:08.354Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/124712/image"
         }
       },
       "team": {
@@ -598,6 +720,37 @@
             "hi": "टी. सिल्वा",
             "ru": "Т. Силва"
           }
+        },
+        "profile": {
+          "id": 33541,
+          "name": "Thiago Silva",
+          "shortName": "T. Silva",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 181,
+          "birthDate": "1984-09-22",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1961,
+            "name": "Fluminense"
+          },
+          "shirtNumber": 3,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 465000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/33541",
+          "fetchedAt": "2026-11-23T22:32:46.510Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/33541/image"
         }
       },
       "team": {
@@ -720,6 +873,37 @@
           "shortNameTranslation": {
             "ar": "وارليسون"
           }
+        },
+        "profile": {
+          "id": 861071,
+          "name": "Warleson",
+          "shortName": "Warleson",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 191,
+          "birthDate": "1996-08-29",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1958,
+            "name": "Botafogo"
+          },
+          "shirtNumber": 17,
+          "contractUntil": "2027-06-30",
+          "marketValue": {
+            "value": 2200000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/861071",
+          "fetchedAt": "2026-11-23T22:32:47.769Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/861071/image"
         }
       },
       "team": {
@@ -847,6 +1031,38 @@
             "hi": "एस. लिनो",
             "ru": "С. Лино"
           }
+        },
+        "profile": {
+          "id": 874705,
+          "name": "Samuel Lino",
+          "shortName": "S. Lino",
+          "position": "M",
+          "positionsDetailed": [
+            "LW",
+            "ML"
+          ],
+          "heightCm": 178,
+          "birthDate": "1999-12-22",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 5981,
+            "name": "Flamengo"
+          },
+          "shirtNumber": 16,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 17500000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/874705",
+          "fetchedAt": "2026-11-23T22:32:48.981Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/874705/image"
         }
       },
       "team": {
@@ -970,6 +1186,37 @@
             "ar": "رونالدو",
             "ru": "Роналду"
           }
+        },
+        "profile": {
+          "id": 840106,
+          "name": "Ronaldo",
+          "shortName": "Ronaldo",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 193,
+          "birthDate": "1996-08-22",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1955,
+            "name": "Bahia"
+          },
+          "shirtNumber": 1,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 1900000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/840106",
+          "fetchedAt": "2026-11-23T22:32:50.194Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/840106/image"
         }
       },
       "team": {
@@ -1097,6 +1344,37 @@
             "hi": "एम. परेरा",
             "ru": "М. Перейра"
           }
+        },
+        "profile": {
+          "id": 377238,
+          "name": "Matheus Pereira",
+          "shortName": "M. Pereira",
+          "position": "M",
+          "positionsDetailed": [
+            "AM"
+          ],
+          "heightCm": 175,
+          "birthDate": "1996-05-05",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1954,
+            "name": "Cruzeiro"
+          },
+          "shirtNumber": 10,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 13500000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/377238",
+          "fetchedAt": "2026-11-23T22:32:51.414Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/377238/image"
         }
       },
       "team": {
@@ -1224,6 +1502,38 @@
             "hi": "डेनिलो",
             "ru": "Данило"
           }
+        },
+        "profile": {
+          "id": 1064039,
+          "name": "Danilo Santos",
+          "shortName": "D. Santos",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM"
+          ],
+          "heightCm": 175,
+          "birthDate": "2001-04-19",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1958,
+            "name": "Botafogo"
+          },
+          "shirtNumber": 8,
+          "contractUntil": "2029-06-30",
+          "marketValue": {
+            "value": 33000000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1064039",
+          "fetchedAt": "2026-11-23T22:32:52.631Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1064039/image"
         }
       },
       "team": {
@@ -1347,6 +1657,37 @@
             "ar": "ت. فوليبي",
             "ru": "Т. Вольпи"
           }
+        },
+        "profile": {
+          "id": 243509,
+          "name": "Tiago Volpi",
+          "shortName": "T. Volpi",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 189,
+          "birthDate": "1990-12-19",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1999,
+            "name": "Red Bull Bragantino"
+          },
+          "shirtNumber": 18,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 930000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/243509",
+          "fetchedAt": "2026-11-23T22:32:53.844Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/243509/image"
         }
       },
       "team": {
@@ -1470,6 +1811,37 @@
             "ar": "غ. ديلفيم",
             "ru": "Г. Дельфим"
           }
+        },
+        "profile": {
+          "id": 1117032,
+          "name": "Gabriel Delfim",
+          "shortName": "G. Delfim",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 192,
+          "birthDate": "2002-07-10",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1977,
+            "name": "Atlético Mineiro"
+          },
+          "shirtNumber": 1,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 3100000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1117032",
+          "fetchedAt": "2026-11-23T22:32:55.058Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1117032/image"
         }
       },
       "team": {
@@ -1593,6 +1965,37 @@
             "ar": "والاس",
             "ru": "Уоллес"
           }
+        },
+        "profile": {
+          "id": 1843731,
+          "name": "Wallace",
+          "shortName": "Wallace",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 190,
+          "birthDate": "2004-12-06",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 5926,
+            "name": "Grêmio"
+          },
+          "shirtNumber": 82,
+          "contractUntil": "2031-06-30",
+          "marketValue": {
+            "value": 2900000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1843731",
+          "fetchedAt": "2026-11-23T22:26:28.247Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1843731/image"
         }
       },
       "team": {
@@ -1716,6 +2119,37 @@
             "ar": "د. غوميز",
             "ru": "Д. Гомес"
           }
+        },
+        "profile": {
+          "id": 2032806,
+          "name": "Davi Gomes",
+          "shortName": "D. Gomes",
+          "position": "M",
+          "positionsDetailed": [
+            "LW"
+          ],
+          "heightCm": 177,
+          "birthDate": "2005-06-06",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1999,
+            "name": "Red Bull Bragantino"
+          },
+          "shirtNumber": 27,
+          "contractUntil": "2030-03-31",
+          "marketValue": {
+            "value": 390000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/2032806",
+          "fetchedAt": "2026-11-23T22:32:56.264Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/2032806/image"
         }
       },
       "team": {
@@ -1839,6 +2273,37 @@
             "ar": "ب. موريكو",
             "ru": "П. Мориско"
           }
+        },
+        "profile": {
+          "id": 1507616,
+          "name": "Pedro Morisco",
+          "shortName": "P. Morisco",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 191,
+          "birthDate": "2004-01-10",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1982,
+            "name": "Coritiba"
+          },
+          "shirtNumber": 1,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 8300000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1507616",
+          "fetchedAt": "2026-11-23T22:32:57.460Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1507616/image"
         }
       },
       "team": {
@@ -1966,6 +2431,37 @@
             "hi": "वेवर्टन",
             "ru": "Вевертон"
           }
+        },
+        "profile": {
+          "id": 243529,
+          "name": "Weverton",
+          "shortName": "Weverton",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 189,
+          "birthDate": "1987-12-13",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 5926,
+            "name": "Grêmio"
+          },
+          "shirtNumber": 1,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 750000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/243529",
+          "fetchedAt": "2026-11-23T22:26:34.259Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/243529/image"
         }
       },
       "team": {
@@ -2089,6 +2585,38 @@
             "ar": "ك. فارجاس",
             "ru": "К. Варгас"
           }
+        },
+        "profile": {
+          "id": 1131136,
+          "name": "Kerwin Vargas",
+          "shortName": "K. C. Vargas",
+          "position": "M",
+          "positionsDetailed": [
+            "RW",
+            "LW"
+          ],
+          "heightCm": 180,
+          "birthDate": "2002-01-02",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "CO",
+            "alpha3": "COL",
+            "name": "Colombia",
+            "slug": "colombia"
+          },
+          "currentTeam": {
+            "id": 1967,
+            "name": "Athletico"
+          },
+          "shirtNumber": 18,
+          "contractUntil": "2030-06-30",
+          "marketValue": {
+            "value": 3700000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1131136",
+          "fetchedAt": "2026-11-23T22:32:58.675Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1131136/image"
         }
       },
       "team": {
@@ -2212,6 +2740,38 @@
             "ar": "أ. ليسكانو",
             "ru": "А. Лескано"
           }
+        },
+        "profile": {
+          "id": 1186068,
+          "name": "Alan Lescano",
+          "shortName": "A. Lescano",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "AM"
+          ],
+          "heightCm": 182,
+          "birthDate": "2001-11-11",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "AR",
+            "alpha3": "ARG",
+            "name": "Argentina",
+            "slug": "argentina"
+          },
+          "currentTeam": {
+            "id": 1974,
+            "name": "Vasco da Gama"
+          },
+          "shirtNumber": 22,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 7200000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1186068",
+          "fetchedAt": "2026-11-23T22:32:59.875Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1186068/image"
         }
       },
       "team": {
@@ -2339,6 +2899,37 @@
             "hi": "एल. परेरा",
             "ru": "Л. Перейра"
           }
+        },
+        "profile": {
+          "id": 358548,
+          "name": "Léo Pereira",
+          "shortName": "L. Pereira",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 189,
+          "birthDate": "1996-01-30",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 5981,
+            "name": "Flamengo"
+          },
+          "shirtNumber": 4,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 9400000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/358548",
+          "fetchedAt": "2026-11-23T22:33:01.059Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/358548/image"
         }
       },
       "team": {
@@ -2466,6 +3057,37 @@
             "hi": "एल. ऑर्टिज़",
             "ru": "Л. Ортис"
           }
+        },
+        "profile": {
+          "id": 869643,
+          "name": "Léo Ortiz",
+          "shortName": "L. Ortiz",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 185,
+          "birthDate": "1996-01-03",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 5981,
+            "name": "Flamengo"
+          },
+          "shirtNumber": 3,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 13600000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/869643",
+          "fetchedAt": "2026-11-23T22:33:02.256Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/869643/image"
         }
       },
       "team": {
@@ -2593,6 +3215,37 @@
             "hi": "जे. पेड्रो",
             "ru": "Ж. Тчока"
           }
+        },
+        "profile": {
+          "id": 1411150,
+          "name": "João Pedro Tchoca",
+          "shortName": "J. Pedro",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 192,
+          "birthDate": "2003-12-31",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1957,
+            "name": "Corinthians"
+          },
+          "shirtNumber": 4,
+          "contractUntil": "2030-12-31",
+          "marketValue": {
+            "value": 3800000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1411150",
+          "fetchedAt": "2026-11-23T22:33:03.460Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1411150/image"
         }
       },
       "team": {
@@ -2716,6 +3369,38 @@
             "ar": "ل. إسكويفيل",
             "ru": "Л. Эскивель"
           }
+        },
+        "profile": {
+          "id": 1087079,
+          "name": "Lucas Esquivel",
+          "shortName": "L. Esquivel",
+          "position": "D",
+          "positionsDetailed": [
+            "DL",
+            "DC"
+          ],
+          "heightCm": 183,
+          "birthDate": "2001-10-14",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "AR",
+            "alpha3": "ARG",
+            "name": "Argentina",
+            "slug": "argentina"
+          },
+          "currentTeam": {
+            "id": 1967,
+            "name": "Athletico"
+          },
+          "shirtNumber": 37,
+          "contractUntil": "2029-06-30",
+          "marketValue": {
+            "value": 7200000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1087079",
+          "fetchedAt": "2026-11-23T22:33:04.677Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1087079/image"
         }
       },
       "team": {
@@ -2843,6 +3528,37 @@
             "hi": "जी. बारबोसा",
             "ru": "Г. Барбоса"
           }
+        },
+        "profile": {
+          "id": 358554,
+          "name": "Gabriel Barbosa",
+          "shortName": "G. Barbosa",
+          "position": "F",
+          "positionsDetailed": [
+            "ST"
+          ],
+          "heightCm": 178,
+          "birthDate": "1996-08-30",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1968,
+            "name": "Santos"
+          },
+          "shirtNumber": 9,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 4200000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/358554",
+          "fetchedAt": "2026-11-23T22:33:05.873Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/358554/image"
         }
       },
       "team": {
@@ -2965,6 +3681,38 @@
           "shortNameTranslation": {
             "ar": "دودو"
           }
+        },
+        "profile": {
+          "id": 1124220,
+          "name": "Dudu",
+          "shortName": "D. Rodrigues",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM"
+          ],
+          "heightCm": 186,
+          "birthDate": "1999-06-05",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1962,
+            "name": "Vitória"
+          },
+          "shirtNumber": 21,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 620000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1124220",
+          "fetchedAt": "2026-11-23T22:33:07.076Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1124220/image"
         }
       },
       "team": {
@@ -3092,6 +3840,38 @@
             "hi": "एल. डुआर्टे",
             "ru": "Л. Дуарт"
           }
+        },
+        "profile": {
+          "id": 839982,
+          "name": "Léo Duarte",
+          "shortName": "L. Duarte",
+          "position": "D",
+          "positionsDetailed": [
+            "DC",
+            "DR"
+          ],
+          "heightCm": 183,
+          "birthDate": "1996-07-17",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1977,
+            "name": "Atlético Mineiro"
+          },
+          "shirtNumber": 3,
+          "contractUntil": "2030-12-31",
+          "marketValue": {
+            "value": 1900000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/839982",
+          "fetchedAt": "2026-11-23T22:33:08.272Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/839982/image"
         }
       },
       "team": {
@@ -3218,6 +3998,38 @@
             "bn": "জর্গিনহো",
             "hi": "जोर्गिनहो"
           }
+        },
+        "profile": {
+          "id": 132874,
+          "name": "Jorginho",
+          "shortName": "Jorginho",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM"
+          ],
+          "heightCm": 180,
+          "birthDate": "1991-12-20",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "IT",
+            "alpha3": "ITA",
+            "name": "Italy",
+            "slug": "italy"
+          },
+          "currentTeam": {
+            "id": 5981,
+            "name": "Flamengo"
+          },
+          "shirtNumber": 21,
+          "contractUntil": null,
+          "marketValue": {
+            "value": 5400000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/132874",
+          "fetchedAt": "2026-11-23T22:33:09.472Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/132874/image"
         }
       },
       "team": {
@@ -3345,6 +4157,38 @@
             "hi": "एल. पेकटा",
             "ru": "Л. Пакета"
           }
+        },
+        "profile": {
+          "id": 839981,
+          "name": "Lucas Paquetá",
+          "shortName": "L. Paquetá",
+          "position": "M",
+          "positionsDetailed": [
+            "AM",
+            "MC"
+          ],
+          "heightCm": 180,
+          "birthDate": "1997-08-26",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 5981,
+            "name": "Flamengo"
+          },
+          "shirtNumber": 11,
+          "contractUntil": null,
+          "marketValue": {
+            "value": 36000000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/839981",
+          "fetchedAt": "2026-11-23T22:34:06.423Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/839981/image"
         }
       },
       "team": {
@@ -3472,6 +4316,38 @@
             "hi": "ए. बूटा",
             "ru": "А. Бута"
           }
+        },
+        "profile": {
+          "id": 357752,
+          "name": "Aurélio Buta",
+          "shortName": "A. Buta",
+          "position": "D",
+          "positionsDetailed": [
+            "DR",
+            "MR"
+          ],
+          "heightCm": 172,
+          "birthDate": "1997-02-09",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "PT",
+            "alpha3": "PRT",
+            "name": "Portugal",
+            "slug": "portugal"
+          },
+          "currentTeam": {
+            "id": 1981,
+            "name": "São Paulo"
+          },
+          "shirtNumber": 20,
+          "contractUntil": "2027-06-30",
+          "marketValue": {
+            "value": 1400000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/357752",
+          "fetchedAt": "2026-11-23T22:34:07.641Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/357752/image"
         }
       },
       "team": {
@@ -3599,6 +4475,37 @@
             "hi": "जी. पेक",
             "ru": "Г. Пек"
           }
+        },
+        "profile": {
+          "id": 995072,
+          "name": "Gabriel Pec",
+          "shortName": "G. Pec",
+          "position": "M",
+          "positionsDetailed": [
+            "RW"
+          ],
+          "heightCm": 177,
+          "birthDate": "2001-02-10",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1954,
+            "name": "Cruzeiro"
+          },
+          "shirtNumber": 77,
+          "contractUntil": "2031-06-30",
+          "marketValue": {
+            "value": 7300000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/995072",
+          "fetchedAt": "2026-11-23T22:34:08.850Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/995072/image"
         }
       },
       "team": {
@@ -3726,6 +4633,38 @@
             "hi": "टी. मेंडेस",
             "ru": "Т. Мендес"
           }
+        },
+        "profile": {
+          "id": 329303,
+          "name": "Thiago Mendes",
+          "shortName": "T. Mendes",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM"
+          ],
+          "heightCm": 176,
+          "birthDate": "1992-03-15",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1974,
+            "name": "Vasco da Gama"
+          },
+          "shirtNumber": 23,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 930000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/329303",
+          "fetchedAt": "2026-11-23T22:34:10.073Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/329303/image"
         }
       },
       "team": {
@@ -3853,6 +4792,37 @@
             "hi": "सी. मिगुएल",
             "ru": "К. Мигель"
           }
+        },
+        "profile": {
+          "id": 973738,
+          "name": "Carlos Miguel",
+          "shortName": "C. Miguel",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 204,
+          "birthDate": "1998-10-09",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1963,
+            "name": "Palmeiras"
+          },
+          "shirtNumber": 1,
+          "contractUntil": "2030-07-31",
+          "marketValue": {
+            "value": 9800000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/973738",
+          "fetchedAt": "2026-11-23T22:34:11.290Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/973738/image"
         }
       },
       "team": {
@@ -3980,6 +4950,38 @@
             "hi": "जे. एरियास",
             "ru": "Д. Арьяс"
           }
+        },
+        "profile": {
+          "id": 844096,
+          "name": "Jhon Arias",
+          "shortName": "J. Arias",
+          "position": "M",
+          "positionsDetailed": [
+            "RW",
+            "AM"
+          ],
+          "heightCm": 170,
+          "birthDate": "1997-09-21",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "CO",
+            "alpha3": "COL",
+            "name": "Colombia",
+            "slug": "colombia"
+          },
+          "currentTeam": {
+            "id": 1963,
+            "name": "Palmeiras"
+          },
+          "shirtNumber": 11,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 16100000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/844096",
+          "fetchedAt": "2026-11-23T22:34:12.553Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/844096/image"
         }
       },
       "team": {
@@ -4107,6 +5109,38 @@
             "hi": "एम. फ्रीटास",
             "ru": "М. Фрейтас"
           }
+        },
+        "profile": {
+          "id": 840202,
+          "name": "Marlon Freitas",
+          "shortName": "M. Freitas",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM"
+          ],
+          "heightCm": 185,
+          "birthDate": "1995-03-27",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1963,
+            "name": "Palmeiras"
+          },
+          "shirtNumber": 17,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 5800000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/840202",
+          "fetchedAt": "2026-11-23T22:34:13.771Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/840202/image"
         }
       },
       "team": {
@@ -4234,6 +5268,38 @@
             "hi": "जे. कैरासकल",
             "ru": "Х. Карраскаль"
           }
+        },
+        "profile": {
+          "id": 590392,
+          "name": "Jorge Carrascal",
+          "shortName": "J. Carrascal",
+          "position": "M",
+          "positionsDetailed": [
+            "RW",
+            "AM"
+          ],
+          "heightCm": 179,
+          "birthDate": "1998-05-22",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "CO",
+            "alpha3": "COL",
+            "name": "Colombia",
+            "slug": "colombia"
+          },
+          "currentTeam": {
+            "id": 5981,
+            "name": "Flamengo"
+          },
+          "shirtNumber": 15,
+          "contractUntil": "2029-06-30",
+          "marketValue": {
+            "value": 10200000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/590392",
+          "fetchedAt": "2026-11-23T22:34:14.986Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/590392/image"
         }
       },
       "team": {
@@ -4357,6 +5423,37 @@
             "ar": "د. دوارتي",
             "ru": "Д. Дуарт"
           }
+        },
+        "profile": {
+          "id": 810715,
+          "name": "David Duarte",
+          "shortName": "D. Duarte",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 192,
+          "birthDate": "1995-01-24",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1955,
+            "name": "Bahia"
+          },
+          "shirtNumber": 33,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 1400000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/810715",
+          "fetchedAt": "2026-11-23T22:34:16.390Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/810715/image"
         }
       },
       "team": {
@@ -4483,6 +5580,37 @@
             "bn": "এরিক",
             "hi": "एरिक"
           }
+        },
+        "profile": {
+          "id": 895650,
+          "name": "Erick",
+          "shortName": "Erick",
+          "position": "M",
+          "positionsDetailed": [
+            "RW"
+          ],
+          "heightCm": 173,
+          "birthDate": "1997-12-10",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1962,
+            "name": "Vitória"
+          },
+          "shirtNumber": 33,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 4300000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/895650",
+          "fetchedAt": "2026-11-23T22:34:17.609Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/895650/image"
         }
       },
       "team": {
@@ -4610,6 +5738,37 @@
             "hi": "एल. विएरा",
             "ru": "Л. Виейра"
           }
+        },
+        "profile": {
+          "id": 166279,
+          "name": "Léo Vieira",
+          "shortName": "L. Vieira",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 193,
+          "birthDate": "1990-09-22",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1955,
+            "name": "Bahia"
+          },
+          "shirtNumber": 22,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 220000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/166279",
+          "fetchedAt": "2026-11-23T22:34:18.885Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/166279/image"
         }
       },
       "team": {
@@ -4733,6 +5892,37 @@
             "ar": "ج. خيسوس",
             "ru": "Д. Иисус"
           }
+        },
+        "profile": {
+          "id": 1498670,
+          "name": "Jonathan Jesus",
+          "shortName": "J. Jesus",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 187,
+          "birthDate": "2004-05-27",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1954,
+            "name": "Cruzeiro"
+          },
+          "shirtNumber": 34,
+          "contractUntil": "2029-06-30",
+          "marketValue": {
+            "value": 11400000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1498670",
+          "fetchedAt": "2026-11-23T22:34:20.113Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1498670/image"
         }
       },
       "team": {
@@ -4856,6 +6046,37 @@
             "ar": "M. V. F. d. Silva",
             "ru": "М. Виктор"
           }
+        },
+        "profile": {
+          "id": 1174196,
+          "name": "Marcos Victor",
+          "shortName": "M. Victor",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 184,
+          "birthDate": "2001-12-26",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1955,
+            "name": "Bahia"
+          },
+          "shirtNumber": 44,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 470000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1174196",
+          "fetchedAt": "2026-11-23T22:34:21.336Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1174196/image"
         }
       },
       "team": {
@@ -4979,6 +6200,37 @@
             "ar": "ب. هنريكي",
             "ru": "П. Энрике"
           }
+        },
+        "profile": {
+          "id": 551774,
+          "name": "Pedro Henrique",
+          "shortName": "P. Henrique",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 188,
+          "birthDate": "1995-10-02",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 34318,
+            "name": "Al-Ettifaq"
+          },
+          "shirtNumber": 14,
+          "contractUntil": "2028-06-30",
+          "marketValue": {
+            "value": 3800000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/551774",
+          "fetchedAt": "2026-11-23T22:34:22.561Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/551774/image"
         }
       },
       "team": {
@@ -5106,6 +6358,38 @@
             "hi": "नाहुएल फेरारेसी",
             "ru": "Н. Феррареси"
           }
+        },
+        "profile": {
+          "id": 881215,
+          "name": "Nahuel Ferraresi",
+          "shortName": "N. Ferraresi",
+          "position": "D",
+          "positionsDetailed": [
+            "DC",
+            "DR"
+          ],
+          "heightCm": 188,
+          "birthDate": "1998-11-19",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "VE",
+            "alpha3": "VEN",
+            "name": "Venezuela",
+            "slug": "venezuela"
+          },
+          "currentTeam": {
+            "id": 1958,
+            "name": "Botafogo"
+          },
+          "shirtNumber": 5,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 4200000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/881215",
+          "fetchedAt": "2026-11-23T22:34:23.768Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/881215/image"
         }
       },
       "team": {
@@ -5232,6 +6516,37 @@
             "bn": "এভারসন",
             "hi": "एवरसन"
           }
+        },
+        "profile": {
+          "id": 870748,
+          "name": "Everson",
+          "shortName": "Everson",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 193,
+          "birthDate": "1990-07-22",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1977,
+            "name": "Atlético Mineiro"
+          },
+          "shirtNumber": 22,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 930000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/870748",
+          "fetchedAt": "2026-11-23T22:34:25.007Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/870748/image"
         }
       },
       "team": {
@@ -5355,6 +6670,37 @@
             "ar": "ج. مارسيلو",
             "ru": "Ж. Марсело"
           }
+        },
+        "profile": {
+          "id": 978638,
+          "name": "João Marcelo",
+          "shortName": "J. Marcelo",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 189,
+          "birthDate": "2000-06-13",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1954,
+            "name": "Cruzeiro"
+          },
+          "shirtNumber": 43,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 3100000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/978638",
+          "fetchedAt": "2026-11-23T22:34:26.238Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/978638/image"
         }
       },
       "team": {
@@ -5482,6 +6828,37 @@
             "hi": "जोस्यू",
             "ru": "Жозуэ"
           }
+        },
+        "profile": {
+          "id": 77726,
+          "name": "Josué",
+          "shortName": "Josué",
+          "position": "M",
+          "positionsDetailed": [
+            "AM"
+          ],
+          "heightCm": 172,
+          "birthDate": "1990-09-17",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "PT",
+            "alpha3": "PRT",
+            "name": "Portugal",
+            "slug": "portugal"
+          },
+          "currentTeam": {
+            "id": 1982,
+            "name": "Coritiba"
+          },
+          "shirtNumber": 10,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 365000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/77726",
+          "fetchedAt": "2026-11-23T22:34:27.480Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/77726/image"
         }
       },
       "team": {
@@ -5605,6 +6982,37 @@
             "ar": "أ. موراها",
             "ru": "А. Муралха"
           }
+        },
+        "profile": {
+          "id": 340113,
+          "name": "Alex Muralha",
+          "shortName": "A. Muralha",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 188,
+          "birthDate": "1989-11-10",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 21982,
+            "name": "Mirassol"
+          },
+          "shirtNumber": 23,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 77000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/340113",
+          "fetchedAt": "2026-11-23T22:34:28.697Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/340113/image"
         }
       },
       "team": {
@@ -5728,6 +7136,37 @@
           "shortNameTranslation": {
             "ar": "ليوزينيو"
           }
+        },
+        "profile": {
+          "id": 1546647,
+          "name": "Leozinho",
+          "shortName": "Leozinho",
+          "position": "F",
+          "positionsDetailed": [
+            "MR"
+          ],
+          "heightCm": 173,
+          "birthDate": "1998-12-05",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1967,
+            "name": "Athletico"
+          },
+          "shirtNumber": 21,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 775000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1546647",
+          "fetchedAt": "2026-11-23T22:34:29.941Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1546647/image"
         }
       },
       "team": {
@@ -5855,6 +7294,37 @@
             "hi": "काइओ सेसर",
             "ru": "К. Сезар"
           }
+        },
+        "profile": {
+          "id": 1396009,
+          "name": "Kaio César",
+          "shortName": "Kaio César",
+          "position": "F",
+          "positionsDetailed": [
+            "RW"
+          ],
+          "heightCm": 168,
+          "birthDate": "2004-02-15",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1957,
+            "name": "Corinthians"
+          },
+          "shirtNumber": 37,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 4900000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1396009",
+          "fetchedAt": "2026-11-23T22:34:31.159Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1396009/image"
         }
       },
       "team": {
@@ -5982,6 +7452,37 @@
             "hi": "आर. गारो",
             "ru": "Р. Гарро"
           }
+        },
+        "profile": {
+          "id": 994454,
+          "name": "Rodrigo Garro",
+          "shortName": "R. Garro",
+          "position": "M",
+          "positionsDetailed": [
+            "AM"
+          ],
+          "heightCm": 174,
+          "birthDate": "1998-01-04",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "AR",
+            "alpha3": "ARG",
+            "name": "Argentina",
+            "slug": "argentina"
+          },
+          "currentTeam": {
+            "id": 1957,
+            "name": "Corinthians"
+          },
+          "shirtNumber": 8,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 11600000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/994454",
+          "fetchedAt": "2026-11-23T22:34:32.365Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/994454/image"
         }
       },
       "team": {
@@ -6105,6 +7606,37 @@
             "ar": "و. ماتشادو",
             "ru": "У. Машаду"
           }
+        },
+        "profile": {
+          "id": 925871,
+          "name": "Willian Machado",
+          "shortName": "W. Machado",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 185,
+          "birthDate": "1996-11-13",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 21982,
+            "name": "Mirassol"
+          },
+          "shirtNumber": 3,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 1800000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/925871",
+          "fetchedAt": "2026-11-23T22:34:33.576Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/925871/image"
         }
       },
       "team": {
@@ -6229,6 +7761,38 @@
             "ar": "ج. أوغوستو",
             "ru": "Д. Аугусто"
           }
+        },
+        "profile": {
+          "id": 82680,
+          "name": "Giovanni Augusto",
+          "shortName": "G. Augusto",
+          "position": "F",
+          "positionsDetailed": [
+            "AM",
+            "ST"
+          ],
+          "heightCm": 177,
+          "birthDate": "1989-09-05",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 21845,
+            "name": "Chapecoense"
+          },
+          "shirtNumber": 10,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 140000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/82680",
+          "fetchedAt": "2026-11-23T22:34:34.804Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/82680/image"
         }
       },
       "team": {
@@ -6351,6 +7915,37 @@
           "shortNameTranslation": {
             "ar": "كليتون"
           }
+        },
+        "profile": {
+          "id": 844576,
+          "name": "Cleiton",
+          "shortName": "Cleiton",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 190,
+          "birthDate": "1997-08-19",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1999,
+            "name": "Red Bull Bragantino"
+          },
+          "shirtNumber": 1,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 3400000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/844576",
+          "fetchedAt": "2026-11-23T22:34:36.028Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/844576/image"
         }
       },
       "team": {
@@ -6478,6 +8073,39 @@
             "hi": "एंड्रियास परेरा",
             "ru": "А. Перейра"
           }
+        },
+        "profile": {
+          "id": 285949,
+          "name": "Andreas Pereira",
+          "shortName": "A. Pereira",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM",
+            "AM"
+          ],
+          "heightCm": 177,
+          "birthDate": "1996-01-01",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1963,
+            "name": "Palmeiras"
+          },
+          "shirtNumber": 8,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 13500000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/285949",
+          "fetchedAt": "2026-11-23T22:34:37.233Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/285949/image"
         }
       },
       "team": {
@@ -6605,6 +8233,38 @@
             "hi": "सी. पावोन",
             "ru": "К. Павон"
           }
+        },
+        "profile": {
+          "id": 358956,
+          "name": "Cristian Pavón",
+          "shortName": "C. Pavón",
+          "position": "M",
+          "positionsDetailed": [
+            "RW",
+            "DR"
+          ],
+          "heightCm": 169,
+          "birthDate": "1996-01-21",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "AR",
+            "alpha3": "ARG",
+            "name": "Argentina",
+            "slug": "argentina"
+          },
+          "currentTeam": {
+            "id": 5926,
+            "name": "Grêmio"
+          },
+          "shirtNumber": 7,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 2600000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/358956",
+          "fetchedAt": "2026-11-23T22:25:58.937Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/358956/image"
         }
       },
       "team": {
@@ -6727,6 +8387,37 @@
           "shortNameTranslation": {
             "ar": "إغناسيو"
           }
+        },
+        "profile": {
+          "id": 958382,
+          "name": "Ignácio",
+          "shortName": "Ignácio",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 192,
+          "birthDate": "1996-12-01",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1961,
+            "name": "Fluminense"
+          },
+          "shirtNumber": 4,
+          "contractUntil": "2028-06-30",
+          "marketValue": {
+            "value": 3600000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/958382",
+          "fetchedAt": "2026-11-23T22:34:38.445Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/958382/image"
         }
       },
       "team": {
@@ -6854,6 +8545,37 @@
             "hi": "के. जॉर्ज",
             "ru": "К. Жорже"
           }
+        },
+        "profile": {
+          "id": 954888,
+          "name": "Kaio Jorge",
+          "shortName": "K. Jorge",
+          "position": "F",
+          "positionsDetailed": [
+            "ST"
+          ],
+          "heightCm": 182,
+          "birthDate": "2002-01-24",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1954,
+            "name": "Cruzeiro"
+          },
+          "shirtNumber": 19,
+          "contractUntil": "2030-12-31",
+          "marketValue": {
+            "value": 24000000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/954888",
+          "fetchedAt": "2026-11-23T22:35:32.825Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/954888/image"
         }
       },
       "team": {
@@ -6981,6 +8703,37 @@
             "hi": "एफ. एंगिलेरी",
             "ru": "Ф. Анджилиери"
           }
+        },
+        "profile": {
+          "id": 311462,
+          "name": "Fabrizio Angileri",
+          "shortName": "F. Angileri",
+          "position": "D",
+          "positionsDetailed": [
+            "DL"
+          ],
+          "heightCm": 185,
+          "birthDate": "1994-03-15",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "AR",
+            "alpha3": "ARG",
+            "name": "Argentina",
+            "slug": "argentina"
+          },
+          "currentTeam": {
+            "id": 1957,
+            "name": "Corinthians"
+          },
+          "shirtNumber": 26,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 430000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/311462",
+          "fetchedAt": "2026-11-23T22:35:34.024Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/311462/image"
         }
       },
       "team": {
@@ -7104,6 +8857,37 @@
             "ar": "ل. أركانجو",
             "ru": "Л. Арканжо"
           }
+        },
+        "profile": {
+          "id": 982558,
+          "name": "Lucas Arcanjo",
+          "shortName": "L. Arcanjo",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 190,
+          "birthDate": "1998-08-08",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1962,
+            "name": "Vitória"
+          },
+          "shirtNumber": 1,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 4300000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/982558",
+          "fetchedAt": "2026-11-23T22:35:35.229Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/982558/image"
         }
       },
       "team": {
@@ -7231,6 +9015,37 @@
             "hi": "एल. जुबा",
             "ru": "Л. Жуба"
           }
+        },
+        "profile": {
+          "id": 1017264,
+          "name": "Luciano Juba",
+          "shortName": "L. Juba",
+          "position": "D",
+          "positionsDetailed": [
+            "DL"
+          ],
+          "heightCm": 176,
+          "birthDate": "1999-08-29",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1955,
+            "name": "Bahia"
+          },
+          "shirtNumber": 46,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 15500000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1017264",
+          "fetchedAt": "2026-11-23T22:35:36.431Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1017264/image"
         }
       },
       "team": {
@@ -7358,6 +9173,39 @@
             "hi": "गेर्सन",
             "ru": "Жерсон"
           }
+        },
+        "profile": {
+          "id": 611876,
+          "name": "Gerson",
+          "shortName": "Gerson",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM",
+            "RW"
+          ],
+          "heightCm": 185,
+          "birthDate": "1997-05-20",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1954,
+            "name": "Cruzeiro"
+          },
+          "shirtNumber": 8,
+          "contractUntil": "2030-12-31",
+          "marketValue": {
+            "value": 18500000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/611876",
+          "fetchedAt": "2026-11-23T22:35:37.641Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/611876/image"
         }
       },
       "team": {
@@ -7481,6 +9329,37 @@
             "ar": "ك. فيفيروس",
             "ru": "К. Виверос"
           }
+        },
+        "profile": {
+          "id": 925124,
+          "name": "Kevin Viveros",
+          "shortName": "K. Viveros",
+          "position": "F",
+          "positionsDetailed": [
+            "ST"
+          ],
+          "heightCm": 180,
+          "birthDate": "2000-04-25",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "CO",
+            "alpha3": "COL",
+            "name": "Colombia",
+            "slug": "colombia"
+          },
+          "currentTeam": {
+            "id": 1967,
+            "name": "Athletico"
+          },
+          "shirtNumber": 9,
+          "contractUntil": "2028-06-30",
+          "marketValue": {
+            "value": 10300000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/925124",
+          "fetchedAt": "2026-11-23T22:35:38.844Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/925124/image"
         }
       },
       "team": {
@@ -7608,6 +9487,38 @@
             "hi": "बी. फुच्स",
             "ru": "Б. Фукс"
           }
+        },
+        "profile": {
+          "id": 973737,
+          "name": "Bruno Fuchs",
+          "shortName": "B. Fuchs",
+          "position": "D",
+          "positionsDetailed": [
+            "DC",
+            "DR"
+          ],
+          "heightCm": 190,
+          "birthDate": "1999-04-01",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1963,
+            "name": "Palmeiras"
+          },
+          "shirtNumber": 3,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 4099999,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/973737",
+          "fetchedAt": "2026-11-23T22:35:40.044Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/973737/image"
         }
       },
       "team": {
@@ -7734,6 +9645,37 @@
             "bn": "মারলন",
             "hi": "मार्लोन"
           }
+        },
+        "profile": {
+          "id": 870787,
+          "name": "Marlon",
+          "shortName": "Marlon",
+          "position": "D",
+          "positionsDetailed": [
+            "DL"
+          ],
+          "heightCm": 178,
+          "birthDate": "1997-05-20",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 5926,
+            "name": "Grêmio"
+          },
+          "shirtNumber": 23,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 3400000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/870787",
+          "fetchedAt": "2026-11-23T22:26:15.031Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/870787/image"
         }
       },
       "team": {
@@ -7857,6 +9799,37 @@
             "ar": "م. رينجل",
             "ru": "М. Ранжел"
           }
+        },
+        "profile": {
+          "id": 870902,
+          "name": "Marcelo Rangel",
+          "shortName": "M. Rangel",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 186,
+          "birthDate": "1988-05-17",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 2012,
+            "name": "Remo"
+          },
+          "shirtNumber": 88,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 52000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/870902",
+          "fetchedAt": "2026-11-23T22:35:41.287Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/870902/image"
         }
       },
       "team": {
@@ -7980,6 +9953,38 @@
             "ar": "ل. أوغوستو",
             "ru": "Л. Аугусто"
           }
+        },
+        "profile": {
+          "id": 1110708,
+          "name": "Loide Augusto",
+          "shortName": "L. Augusto",
+          "position": "M",
+          "positionsDetailed": [
+            "RW",
+            "LW"
+          ],
+          "heightCm": 183,
+          "birthDate": "2000-02-26",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "AO",
+            "alpha3": "AGO",
+            "name": "Angola",
+            "slug": "angola"
+          },
+          "currentTeam": {
+            "id": 1974,
+            "name": "Vasco da Gama"
+          },
+          "shirtNumber": 45,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 1100000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1110708",
+          "fetchedAt": "2026-11-23T22:35:42.496Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1110708/image"
         }
       },
       "team": {
@@ -8103,6 +10108,34 @@
             "ar": "ج. سواريز",
             "ru": "Ж. Соареш"
           }
+        },
+        "profile": {
+          "id": 2025513,
+          "name": "Gean de Jesus Soares",
+          "shortName": "Gean",
+          "position": "D",
+          "positionsDetailed": [
+            "DR"
+          ],
+          "heightCm": 176,
+          "birthDate": "2007-06-11",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 41825,
+            "name": "Vitória U20"
+          },
+          "shirtNumber": 59,
+          "contractUntil": null,
+          "marketValue": null,
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/2025513",
+          "fetchedAt": "2026-11-23T22:35:43.762Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/2025513/image"
         }
       },
       "team": {
@@ -8230,6 +10263,37 @@
             "hi": "डी. डुआर्टे",
             "ru": "Д. Дуарт"
           }
+        },
+        "profile": {
+          "id": 576276,
+          "name": "Domingos Duarte",
+          "shortName": "D. Duarte",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 191,
+          "birthDate": "1995-03-09",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "PT",
+            "alpha3": "PRT",
+            "name": "Portugal",
+            "slug": "portugal"
+          },
+          "currentTeam": {
+            "id": 1981,
+            "name": "São Paulo"
+          },
+          "shirtNumber": 22,
+          "contractUntil": "2028-07-31",
+          "marketValue": {
+            "value": 870000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/576276",
+          "fetchedAt": "2026-11-23T22:35:45.046Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/576276/image"
         }
       },
       "team": {
@@ -8357,6 +10421,37 @@
             "hi": "ए. रामाल्हो",
             "ru": "А. Рамальо"
           }
+        },
+        "profile": {
+          "id": 148155,
+          "name": "André Ramalho",
+          "shortName": "A. Ramalho",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 182,
+          "birthDate": "1992-02-16",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1957,
+            "name": "Corinthians"
+          },
+          "shirtNumber": 5,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 580000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/148155",
+          "fetchedAt": "2026-11-23T22:35:46.317Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/148155/image"
         }
       },
       "team": {
@@ -8484,6 +10579,38 @@
             "hi": "ए. पैट्रिक",
             "ru": "А. Патрик"
           }
+        },
+        "profile": {
+          "id": 124997,
+          "name": "Alan Patrick",
+          "shortName": "A. Patrick",
+          "position": "M",
+          "positionsDetailed": [
+            "AM",
+            "ST"
+          ],
+          "heightCm": 177,
+          "birthDate": "1991-05-13",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1966,
+            "name": "Internacional"
+          },
+          "shirtNumber": 10,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 2200000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/124997",
+          "fetchedAt": "2026-11-23T22:35:47.585Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/124997/image"
         }
       },
       "team": {
@@ -8611,6 +10738,38 @@
             "hi": "एल. रोमेरो",
             "ru": "Л. Ромеро"
           }
+        },
+        "profile": {
+          "id": 263477,
+          "name": "Lucas Romero",
+          "shortName": "L. Romero",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM"
+          ],
+          "heightCm": 167,
+          "birthDate": "1994-04-18",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "AR",
+            "alpha3": "ARG",
+            "name": "Argentina",
+            "slug": "argentina"
+          },
+          "currentTeam": {
+            "id": 1954,
+            "name": "Cruzeiro"
+          },
+          "shirtNumber": 29,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 2400000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/263477",
+          "fetchedAt": "2026-11-23T22:35:49.095Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/263477/image"
         }
       },
       "team": {
@@ -8734,6 +10893,37 @@
             "ar": "أرثور",
             "ru": "Артур"
           }
+        },
+        "profile": {
+          "id": 841128,
+          "name": "Artur",
+          "shortName": "Artur",
+          "position": "M",
+          "positionsDetailed": [
+            "RW"
+          ],
+          "heightCm": 168,
+          "birthDate": "1998-02-15",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1981,
+            "name": "São Paulo"
+          },
+          "shirtNumber": 37,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 7700000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/841128",
+          "fetchedAt": "2026-11-23T22:35:50.326Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/841128/image"
         }
       },
       "team": {
@@ -8861,6 +11051,37 @@
             "hi": "जी. गोमेज़",
             "ru": "Г. Гомес"
           }
+        },
+        "profile": {
+          "id": 220833,
+          "name": "Gustavo Gómez",
+          "shortName": "G. Gómez",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 185,
+          "birthDate": "1993-05-06",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "PY",
+            "alpha3": "PRY",
+            "name": "Paraguay",
+            "slug": "paraguay"
+          },
+          "currentTeam": {
+            "id": 1963,
+            "name": "Palmeiras"
+          },
+          "shirtNumber": 15,
+          "contractUntil": "2030-12-31",
+          "marketValue": {
+            "value": 3300000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/220833",
+          "fetchedAt": "2026-11-23T22:35:51.544Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/220833/image"
         }
       },
       "team": {
@@ -8988,6 +11209,38 @@
             "hi": "टी. कुएल्लो",
             "ru": "Т. Куэльо"
           }
+        },
+        "profile": {
+          "id": 871273,
+          "name": "Tomás Cuello",
+          "shortName": "T. Cuello",
+          "position": "M",
+          "positionsDetailed": [
+            "RW",
+            "LW"
+          ],
+          "heightCm": 176,
+          "birthDate": "2000-03-05",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "AR",
+            "alpha3": "ARG",
+            "name": "Argentina",
+            "slug": "argentina"
+          },
+          "currentTeam": {
+            "id": 1977,
+            "name": "Atlético Mineiro"
+          },
+          "shirtNumber": 28,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 8800000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/871273",
+          "fetchedAt": "2026-11-23T22:35:52.750Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/871273/image"
         }
       },
       "team": {
@@ -9111,6 +11364,38 @@
             "ar": "ل. باربوسا",
             "ru": "Л. Барбоза"
           }
+        },
+        "profile": {
+          "id": 1067641,
+          "name": "Lucas Barbosa",
+          "shortName": "L. Barbosa",
+          "position": "M",
+          "positionsDetailed": [
+            "RW",
+            "AM"
+          ],
+          "heightCm": 193,
+          "birthDate": "2001-02-22",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1999,
+            "name": "Red Bull Bragantino"
+          },
+          "shirtNumber": 21,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 8199999,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1067641",
+          "fetchedAt": "2026-11-23T22:35:53.967Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1067641/image"
         }
       },
       "team": {
@@ -9238,6 +11523,37 @@
             "hi": "एल. एफ. अकोस्टा",
             "ru": "Л. Акоста"
           }
+        },
+        "profile": {
+          "id": 548030,
+          "name": "Luciano Acosta",
+          "shortName": "L. Acosta",
+          "position": "M",
+          "positionsDetailed": [
+            "AM"
+          ],
+          "heightCm": 160,
+          "birthDate": "1994-05-31",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "AR",
+            "alpha3": "ARG",
+            "name": "Argentina",
+            "slug": "argentina"
+          },
+          "currentTeam": {
+            "id": 1961,
+            "name": "Fluminense"
+          },
+          "shirtNumber": 32,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 4800000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/548030",
+          "fetchedAt": "2026-11-23T22:35:55.184Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/548030/image"
         }
       },
       "team": {
@@ -9365,6 +11681,38 @@
             "hi": "एच. मोस्क्वेरा",
             "ru": "Г. Москера"
           }
+        },
+        "profile": {
+          "id": 1170680,
+          "name": "Henry Mosquera",
+          "shortName": "H. Mosquera",
+          "position": "M",
+          "positionsDetailed": [
+            "LW",
+            "RW"
+          ],
+          "heightCm": 175,
+          "birthDate": "2001-11-15",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "CO",
+            "alpha3": "COL",
+            "name": "Colombia",
+            "slug": "colombia"
+          },
+          "currentTeam": {
+            "id": 1999,
+            "name": "Red Bull Bragantino"
+          },
+          "shirtNumber": 30,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 4700000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1170680",
+          "fetchedAt": "2026-11-23T22:35:56.404Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1170680/image"
         }
       },
       "team": {
@@ -9492,6 +11840,37 @@
             "hi": "जे. लोपेज़",
             "ru": "Х. Лопес"
           }
+        },
+        "profile": {
+          "id": 1094179,
+          "name": "José Manuel López",
+          "shortName": "J. López",
+          "position": "F",
+          "positionsDetailed": [
+            "ST"
+          ],
+          "heightCm": 188,
+          "birthDate": "2000-12-06",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "AR",
+            "alpha3": "ARG",
+            "name": "Argentina",
+            "slug": "argentina"
+          },
+          "currentTeam": {
+            "id": 1963,
+            "name": "Palmeiras"
+          },
+          "shirtNumber": 42,
+          "contractUntil": "2030-12-31",
+          "marketValue": {
+            "value": 32000000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1094179",
+          "fetchedAt": "2026-11-23T22:35:57.621Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1094179/image"
         }
       },
       "team": {
@@ -9619,6 +11998,38 @@
             "hi": "ए. बारबोज़ा",
             "ru": "А. Барбоза"
           }
+        },
+        "profile": {
+          "id": 801044,
+          "name": "Alexander Barboza",
+          "shortName": "A. Barboza",
+          "position": "D",
+          "positionsDetailed": [
+            "DC",
+            "DL"
+          ],
+          "heightCm": 193,
+          "birthDate": "1995-03-16",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "UY",
+            "alpha3": "URY",
+            "name": "Uruguay",
+            "slug": "uruguay"
+          },
+          "currentTeam": {
+            "id": 1963,
+            "name": "Palmeiras"
+          },
+          "shirtNumber": 2,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 4700000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/801044",
+          "fetchedAt": "2026-11-23T22:35:58.831Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/801044/image"
         }
       },
       "team": {
@@ -9746,6 +12157,37 @@
             "hi": "मुरिलो",
             "ru": "Мурило"
           }
+        },
+        "profile": {
+          "id": 874729,
+          "name": "Murilo",
+          "shortName": "Murilo",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 188,
+          "birthDate": "1997-03-27",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1963,
+            "name": "Palmeiras"
+          },
+          "shirtNumber": 26,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 5400000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/874729",
+          "fetchedAt": "2026-11-23T22:36:00.046Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/874729/image"
         }
       },
       "team": {
@@ -9869,6 +12311,37 @@
             "ar": "إ. رابيلو",
             "ru": "И. Рабелло"
           }
+        },
+        "profile": {
+          "id": 753662,
+          "name": "Igor Rabello",
+          "shortName": "I. Rabello",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 190,
+          "birthDate": "1995-04-28",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1961,
+            "name": "Fluminense"
+          },
+          "shirtNumber": 21,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 1500000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/753662",
+          "fetchedAt": "2026-11-23T22:36:01.254Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/753662/image"
         }
       },
       "team": {
@@ -9996,6 +12469,38 @@
             "hi": "एम. मार्टिनेली",
             "ru": "Мартинелли"
           }
+        },
+        "profile": {
+          "id": 1067671,
+          "name": "Matheus Martinelli",
+          "shortName": "Martinelli",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM"
+          ],
+          "heightCm": 176,
+          "birthDate": "2001-10-05",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1961,
+            "name": "Fluminense"
+          },
+          "shirtNumber": 8,
+          "contractUntil": "2030-12-31",
+          "marketValue": {
+            "value": 18500000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1067671",
+          "fetchedAt": "2026-11-23T22:36:02.471Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1067671/image"
         }
       },
       "team": {
@@ -10118,6 +12623,37 @@
           "shortNameTranslation": {
             "ar": "أندرسون"
           }
+        },
+        "profile": {
+          "id": 942061,
+          "name": "Anderson",
+          "shortName": "Anderson",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 190,
+          "birthDate": "1998-03-05",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 21845,
+            "name": "Chapecoense"
+          },
+          "shirtNumber": 98,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 420000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/942061",
+          "fetchedAt": "2026-11-23T22:36:03.679Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/942061/image"
         }
       },
       "team": {
@@ -10245,6 +12781,38 @@
             "hi": "के. कास्टानो",
             "ru": "К. Кастаньо"
           }
+        },
+        "profile": {
+          "id": 1066915,
+          "name": "Kevin Castaño",
+          "shortName": "K. Castaño",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM"
+          ],
+          "heightCm": 177,
+          "birthDate": "2000-09-29",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "CO",
+            "alpha3": "COL",
+            "name": "Colombia",
+            "slug": "colombia"
+          },
+          "currentTeam": {
+            "id": 1977,
+            "name": "Atlético Mineiro"
+          },
+          "shirtNumber": 15,
+          "contractUntil": "2027-06-30",
+          "marketValue": {
+            "value": 5200000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1066915",
+          "fetchedAt": "2026-11-23T22:36:04.915Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1066915/image"
         }
       },
       "team": {
@@ -10367,6 +12935,37 @@
           "shortNameTranslation": {
             "ar": "أ. كوستا"
           }
+        },
+        "profile": {
+          "id": 1589358,
+          "name": "Otávio Costa",
+          "shortName": "Otávio",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 192,
+          "birthDate": "2005-12-27",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1954,
+            "name": "Cruzeiro"
+          },
+          "shirtNumber": 81,
+          "contractUntil": "2031-12-31",
+          "marketValue": {
+            "value": 10500000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1589358",
+          "fetchedAt": "2026-11-23T22:36:06.141Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1589358/image"
         }
       },
       "team": {
@@ -10490,6 +13089,37 @@
             "ar": "ب. لوبيس",
             "ru": "Б. Лопес"
           }
+        },
+        "profile": {
+          "id": 937552,
+          "name": "Breno Lopes",
+          "shortName": "B. Lopes",
+          "position": "M",
+          "positionsDetailed": [
+            "LW"
+          ],
+          "heightCm": 178,
+          "birthDate": "1996-01-24",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1982,
+            "name": "Coritiba"
+          },
+          "shirtNumber": 77,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 2800000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/937552",
+          "fetchedAt": "2026-11-23T22:36:07.392Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/937552/image"
         }
       },
       "team": {
@@ -10617,6 +13247,39 @@
             "hi": "नोनाटो",
             "ru": "Нонато"
           }
+        },
+        "profile": {
+          "id": 922566,
+          "name": "Nonato",
+          "shortName": "Nonato",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM",
+            "AM"
+          ],
+          "heightCm": 174,
+          "birthDate": "1998-03-03",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1961,
+            "name": "Fluminense"
+          },
+          "shirtNumber": 16,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 1900000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/922566",
+          "fetchedAt": "2026-11-23T22:37:29.331Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/922566/image"
         }
       },
       "team": {
@@ -10744,6 +13407,38 @@
             "hi": "फर्नांडो",
             "ru": "Фернандо"
           }
+        },
+        "profile": {
+          "id": 911195,
+          "name": "Fernando",
+          "shortName": "Fernando",
+          "position": "F",
+          "positionsDetailed": [
+            "ST",
+            "LW"
+          ],
+          "heightCm": 176,
+          "birthDate": "1999-03-01",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1999,
+            "name": "Red Bull Bragantino"
+          },
+          "shirtNumber": 11,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 1400000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/911195",
+          "fetchedAt": "2026-11-23T22:37:30.580Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/911195/image"
         }
       },
       "team": {
@@ -10867,6 +13562,38 @@
             "ar": "إ. فورميغا",
             "ru": "И. Форминга"
           }
+        },
+        "profile": {
+          "id": 1009030,
+          "name": "Igor Formiga",
+          "shortName": "Igor Formiga",
+          "position": "D",
+          "positionsDetailed": [
+            "DR",
+            "MR"
+          ],
+          "heightCm": 175,
+          "birthDate": "1999-01-08",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 21982,
+            "name": "Mirassol"
+          },
+          "shirtNumber": 32,
+          "contractUntil": "2027-12-10",
+          "marketValue": {
+            "value": 3800000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1009030",
+          "fetchedAt": "2026-11-23T22:37:31.796Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1009030/image"
         }
       },
       "team": {
@@ -10995,6 +13722,38 @@
             "hi": "ए. कैनोबियो",
             "ru": "А. Каноббио"
           }
+        },
+        "profile": {
+          "id": 846413,
+          "name": "Agustín Canobbio",
+          "shortName": "A. Canobbio",
+          "position": "M",
+          "positionsDetailed": [
+            "RW",
+            "LW"
+          ],
+          "heightCm": 175,
+          "birthDate": "1998-10-01",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "UY",
+            "alpha3": "URY",
+            "name": "Uruguay",
+            "slug": "uruguay"
+          },
+          "currentTeam": {
+            "id": 1961,
+            "name": "Fluminense"
+          },
+          "shirtNumber": 17,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 9300000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/846413",
+          "fetchedAt": "2026-11-23T22:37:33.034Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/846413/image"
         }
       },
       "team": {
@@ -11122,6 +13881,38 @@
             "hi": "आर्थर",
             "ru": "Артур"
           }
+        },
+        "profile": {
+          "id": 794927,
+          "name": "Arthur",
+          "shortName": "Arthur",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM"
+          ],
+          "heightCm": 172,
+          "birthDate": "1996-08-12",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1968,
+            "name": "Santos"
+          },
+          "shirtNumber": 6,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 3600000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/794927",
+          "fetchedAt": "2026-11-23T22:37:34.258Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/794927/image"
         }
       },
       "team": {
@@ -11245,6 +14036,37 @@
             "ar": "ج. كابيكابا",
             "ru": "Ж. Капикаба"
           }
+        },
+        "profile": {
+          "id": 870556,
+          "name": "Juninho Capixaba",
+          "shortName": "J. Capixaba",
+          "position": "D",
+          "positionsDetailed": [
+            "DL"
+          ],
+          "heightCm": 176,
+          "birthDate": "1997-07-06",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1999,
+            "name": "Red Bull Bragantino"
+          },
+          "shirtNumber": 29,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 7400000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/870556",
+          "fetchedAt": "2026-11-23T22:37:35.579Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/870556/image"
         }
       },
       "team": {
@@ -11368,6 +14190,38 @@
             "ar": "غ. بينافيديز",
             "ru": "Г. Бенавидес"
           }
+        },
+        "profile": {
+          "id": 981452,
+          "name": "Gastón Benavídez",
+          "shortName": "G. Benavídez",
+          "position": "D",
+          "positionsDetailed": [
+            "DR",
+            "MR"
+          ],
+          "heightCm": 175,
+          "birthDate": "1995-10-23",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "AR",
+            "alpha3": "ARG",
+            "name": "Argentina",
+            "slug": "argentina"
+          },
+          "currentTeam": {
+            "id": 1967,
+            "name": "Athletico"
+          },
+          "shirtNumber": 29,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 3400000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/981452",
+          "fetchedAt": "2026-11-23T22:37:36.800Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/981452/image"
         }
       },
       "team": {
@@ -11491,6 +14345,39 @@
             "ar": "إ. نوريجا",
             "ru": "Э. Норьега"
           }
+        },
+        "profile": {
+          "id": 1020375,
+          "name": "Erick Noriega",
+          "shortName": "E. Noriega",
+          "position": "M",
+          "positionsDetailed": [
+            "DM",
+            "MC",
+            "DC"
+          ],
+          "heightCm": 185,
+          "birthDate": "2001-10-22",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "PE",
+            "alpha3": "PER",
+            "name": "Peru",
+            "slug": "peru"
+          },
+          "currentTeam": {
+            "id": 5926,
+            "name": "Grêmio"
+          },
+          "shirtNumber": 8,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 6200000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1020375",
+          "fetchedAt": "2026-11-23T22:25:57.754Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1020375/image"
         }
       },
       "team": {
@@ -11618,6 +14505,37 @@
             "hi": "जी. डी अर्रास्काटा",
             "ru": "Д. Араскаета"
           }
+        },
+        "profile": {
+          "id": 333587,
+          "name": "Giorgian de Arrascaeta",
+          "shortName": "G. de Arrascaeta",
+          "position": "M",
+          "positionsDetailed": [
+            "AM"
+          ],
+          "heightCm": 173,
+          "birthDate": "1994-05-27",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "UY",
+            "alpha3": "URY",
+            "name": "Uruguay",
+            "slug": "uruguay"
+          },
+          "currentTeam": {
+            "id": 5981,
+            "name": "Flamengo"
+          },
+          "shirtNumber": 10,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 14500000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/333587",
+          "fetchedAt": "2026-11-23T22:37:38.012Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/333587/image"
         }
       },
       "team": {
@@ -11741,6 +14659,38 @@
             "ar": "سابينو",
             "ru": "Сабино"
           }
+        },
+        "profile": {
+          "id": 975118,
+          "name": "Sabino",
+          "shortName": "Sabino",
+          "position": "D",
+          "positionsDetailed": [
+            "DC",
+            "DL"
+          ],
+          "heightCm": 185,
+          "birthDate": "1996-10-25",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1981,
+            "name": "São Paulo"
+          },
+          "shirtNumber": 35,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 1100000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/975118",
+          "fetchedAt": "2026-11-23T22:37:39.224Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/975118/image"
         }
       },
       "team": {
@@ -11864,6 +14814,37 @@
             "ar": "نيغويبا",
             "ru": "Негейба"
           }
+        },
+        "profile": {
+          "id": 872007,
+          "name": "Negueba",
+          "shortName": "Negueba",
+          "position": "M",
+          "positionsDetailed": [
+            "RW"
+          ],
+          "heightCm": 175,
+          "birthDate": "1999-12-03",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 21982,
+            "name": "Mirassol"
+          },
+          "shirtNumber": 11,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 2700000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/872007",
+          "fetchedAt": "2026-11-23T22:37:40.446Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/872007/image"
         }
       },
       "team": {
@@ -11992,6 +14973,37 @@
             "hi": "पी. लीमा",
             "ru": "П. Лима"
           }
+        },
+        "profile": {
+          "id": 1597270,
+          "name": "Pedro Lima",
+          "shortName": "P. Lima",
+          "position": "D",
+          "positionsDetailed": [
+            "DR"
+          ],
+          "heightCm": 174,
+          "birthDate": "2006-07-01",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1981,
+            "name": "São Paulo"
+          },
+          "shirtNumber": 32,
+          "contractUntil": "2027-06-30",
+          "marketValue": {
+            "value": 3900000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1597270",
+          "fetchedAt": "2026-11-23T22:37:41.658Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1597270/image"
         }
       },
       "team": {
@@ -12115,6 +15127,37 @@
             "ar": "ن. كاويرا",
             "ru": "Г. Маркес"
           }
+        },
+        "profile": {
+          "id": 1174764,
+          "name": "Gustavo Marques",
+          "shortName": "G. Marques",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 189,
+          "birthDate": "2001-10-09",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1999,
+            "name": "Red Bull Bragantino"
+          },
+          "shirtNumber": 16,
+          "contractUntil": "2030-06-30",
+          "marketValue": {
+            "value": 6800000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1174764",
+          "fetchedAt": "2026-11-23T22:37:42.889Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1174764/image"
         }
       },
       "team": {
@@ -12242,6 +15285,39 @@
             "hi": "विलीयन अराओ",
             "ru": "У. Арао"
           }
+        },
+        "profile": {
+          "id": 242213,
+          "name": "Willian Arão",
+          "shortName": "Willian Arão",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM",
+            "DC"
+          ],
+          "heightCm": 181,
+          "birthDate": "1992-03-12",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1968,
+            "name": "Santos"
+          },
+          "shirtNumber": 15,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 720000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/242213",
+          "fetchedAt": "2026-11-23T22:37:44.106Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/242213/image"
         }
       },
       "team": {
@@ -12365,6 +15441,37 @@
             "ar": "ج. فيكتور",
             "ru": "Ж. Виктор"
           }
+        },
+        "profile": {
+          "id": 1602833,
+          "name": "João Victor",
+          "shortName": "J. Victor",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 187,
+          "birthDate": "2007-01-02",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 5981,
+            "name": "Flamengo"
+          },
+          "shirtNumber": 61,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 775000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1602833",
+          "fetchedAt": "2026-11-23T22:37:45.315Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1602833/image"
         }
       },
       "team": {
@@ -12492,6 +15599,37 @@
             "hi": "एम. लोम्बा",
             "ru": "М. Ломба"
           }
+        },
+        "profile": {
+          "id": 34141,
+          "name": "Marcelo Lomba",
+          "shortName": "M. Lomba",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 187,
+          "birthDate": "1986-12-18",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1963,
+            "name": "Palmeiras"
+          },
+          "shirtNumber": 14,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 68000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/34141",
+          "fetchedAt": "2026-11-23T22:37:46.527Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/34141/image"
         }
       },
       "team": {
@@ -12615,6 +15753,34 @@
             "ar": "ك. فيريرا",
             "ru": "К. Суазуна"
           }
+        },
+        "profile": {
+          "id": 1831095,
+          "name": "Caio Suassuna",
+          "shortName": "C. Suassuna",
+          "position": "F",
+          "positionsDetailed": [
+            "ST"
+          ],
+          "heightCm": 184,
+          "birthDate": "2007-03-22",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 41824,
+            "name": "Bahia U20"
+          },
+          "shirtNumber": 19,
+          "contractUntil": null,
+          "marketValue": null,
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1831095",
+          "fetchedAt": "2026-11-23T22:37:47.731Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1831095/image"
         }
       },
       "team": {
@@ -12738,6 +15904,39 @@
             "ar": "س. سوسا",
             "ru": "С. Соса"
           }
+        },
+        "profile": {
+          "id": 928237,
+          "name": "Santiago Sosa",
+          "shortName": "S. Sosa",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DC",
+            "DM"
+          ],
+          "heightCm": 182,
+          "birthDate": "1999-05-03",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "AR",
+            "alpha3": "ARG",
+            "name": "Argentina",
+            "slug": "argentina"
+          },
+          "currentTeam": {
+            "id": 1974,
+            "name": "Vasco da Gama"
+          },
+          "shirtNumber": 5,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 8800000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/928237",
+          "fetchedAt": "2026-11-23T22:37:48.949Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/928237/image"
         }
       },
       "team": {
@@ -12860,6 +16059,38 @@
           "shortNameTranslation": {
             "ar": "A. C. G. d. Costa"
           }
+        },
+        "profile": {
+          "id": 1185617,
+          "name": "Alexsander",
+          "shortName": "Alexsander",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM"
+          ],
+          "heightCm": 178,
+          "birthDate": "2003-10-08",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1977,
+            "name": "Atlético Mineiro"
+          },
+          "shirtNumber": 5,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 5200000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1185617",
+          "fetchedAt": "2026-11-23T22:37:50.193Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1185617/image"
         }
       },
       "team": {
@@ -12987,6 +16218,37 @@
             "hi": "अगस्टिन रॉसी",
             "ru": "А. Росси"
           }
+        },
+        "profile": {
+          "id": 1140986,
+          "name": "Agustín Rossi",
+          "shortName": "A. Rossi",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 195,
+          "birthDate": "1995-08-19",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "AR",
+            "alpha3": "ARG",
+            "name": "Argentina",
+            "slug": "argentina"
+          },
+          "currentTeam": {
+            "id": 5981,
+            "name": "Flamengo"
+          },
+          "shirtNumber": 1,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 10300000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1140986",
+          "fetchedAt": "2026-11-23T22:37:51.432Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1140986/image"
         }
       },
       "team": {
@@ -13110,6 +16372,37 @@
             "ar": "هولك",
             "ru": "Халк"
           }
+        },
+        "profile": {
+          "id": 34705,
+          "name": "Hulk",
+          "shortName": "Hulk",
+          "position": "F",
+          "positionsDetailed": [
+            "ST"
+          ],
+          "heightCm": 180,
+          "birthDate": "1986-07-25",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1961,
+            "name": "Fluminense"
+          },
+          "shirtNumber": 7,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 1100000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/34705",
+          "fetchedAt": "2026-11-23T22:37:52.654Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/34705/image"
         }
       },
       "team": {
@@ -13232,6 +16525,38 @@
           "shortNameTranslation": {
             "ar": "لوتشيانو"
           }
+        },
+        "profile": {
+          "id": 282557,
+          "name": "Luciano",
+          "shortName": "Luciano",
+          "position": "F",
+          "positionsDetailed": [
+            "AM",
+            "ST"
+          ],
+          "heightCm": 181,
+          "birthDate": "1993-05-18",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1981,
+            "name": "São Paulo"
+          },
+          "shirtNumber": 10,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 1100000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/282557",
+          "fetchedAt": "2026-11-23T22:37:53.875Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/282557/image"
         }
       },
       "team": {
@@ -13359,6 +16684,37 @@
             "hi": "वेस्ली",
             "ru": "Уэсли"
           }
+        },
+        "profile": {
+          "id": 1211632,
+          "name": "Wesley",
+          "shortName": "Wesley",
+          "position": "M",
+          "positionsDetailed": [
+            "LW"
+          ],
+          "heightCm": 180,
+          "birthDate": "2005-03-05",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1954,
+            "name": "Cruzeiro"
+          },
+          "shirtNumber": 20,
+          "contractUntil": "2027-06-30",
+          "marketValue": {
+            "value": 4099999,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1211632",
+          "fetchedAt": "2026-11-23T22:37:55.144Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1211632/image"
         }
       },
       "team": {
@@ -13486,6 +16842,37 @@
             "hi": "पेड्रो",
             "ru": "Педро"
           }
+        },
+        "profile": {
+          "id": 840219,
+          "name": "Pedro Guilherme",
+          "shortName": "Pedro",
+          "position": "F",
+          "positionsDetailed": [
+            "ST"
+          ],
+          "heightCm": 186,
+          "birthDate": "1997-06-19",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 5981,
+            "name": "Flamengo"
+          },
+          "shirtNumber": 9,
+          "contractUntil": null,
+          "marketValue": {
+            "value": 16500000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/840219",
+          "fetchedAt": "2026-11-23T22:37:56.368Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/840219/image"
         }
       },
       "team": {
@@ -13613,6 +17000,38 @@
             "hi": "जेफरसन सावरिनो",
             "ru": "Д. Саварино"
           }
+        },
+        "profile": {
+          "id": 874739,
+          "name": "Jefferson Savarino",
+          "shortName": "J. Savarino",
+          "position": "M",
+          "positionsDetailed": [
+            "AM",
+            "LW"
+          ],
+          "heightCm": 169,
+          "birthDate": "1996-11-11",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "VE",
+            "alpha3": "VEN",
+            "name": "Venezuela",
+            "slug": "venezuela"
+          },
+          "currentTeam": {
+            "id": 1961,
+            "name": "Fluminense"
+          },
+          "shirtNumber": 11,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 7400000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/874739",
+          "fetchedAt": "2026-11-23T22:37:57.575Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/874739/image"
         }
       },
       "team": {
@@ -13736,6 +17155,37 @@
             "ar": "رينيه",
             "ru": "Рене"
           }
+        },
+        "profile": {
+          "id": 243113,
+          "name": "Renê",
+          "shortName": "Renê",
+          "position": "D",
+          "positionsDetailed": [
+            "DL"
+          ],
+          "heightCm": 174,
+          "birthDate": "1992-09-14",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1961,
+            "name": "Fluminense"
+          },
+          "shirtNumber": 6,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 415000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/243113",
+          "fetchedAt": "2026-11-23T22:37:58.778Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/243113/image"
         }
       },
       "team": {
@@ -13863,6 +17313,38 @@
             "hi": "ई. पुल्गर",
             "ru": "Э. Пульгар"
           }
+        },
+        "profile": {
+          "id": 590262,
+          "name": "Erick Pulgar",
+          "shortName": "E. Pulgar",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM"
+          ],
+          "heightCm": 186,
+          "birthDate": "1994-01-15",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "CL",
+            "alpha3": "CHL",
+            "name": "Chile",
+            "slug": "chile"
+          },
+          "currentTeam": {
+            "id": 5981,
+            "name": "Flamengo"
+          },
+          "shirtNumber": 5,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 5400000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/590262",
+          "fetchedAt": "2026-11-23T22:37:59.998Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/590262/image"
         }
       },
       "team": {
@@ -13990,6 +17472,38 @@
             "hi": "आर. टोलोई",
             "ru": "Р. Толой"
           }
+        },
+        "profile": {
+          "id": 82943,
+          "name": "Rafael Tolói",
+          "shortName": "R. Tolói",
+          "position": "D",
+          "positionsDetailed": [
+            "DC",
+            "DR"
+          ],
+          "heightCm": 185,
+          "birthDate": "1990-10-10",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "IT",
+            "alpha3": "ITA",
+            "name": "Italy",
+            "slug": "italy"
+          },
+          "currentTeam": {
+            "id": 1981,
+            "name": "São Paulo"
+          },
+          "shirtNumber": 2,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 835000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/82943",
+          "fetchedAt": "2026-11-23T22:38:01.207Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/82943/image"
         }
       },
       "team": {
@@ -14117,6 +17631,39 @@
             "hi": "फ्रेड",
             "ru": "Фред"
           }
+        },
+        "profile": {
+          "id": 243623,
+          "name": "Fred",
+          "shortName": "Fred",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM",
+            "AM"
+          ],
+          "heightCm": 169,
+          "birthDate": "1993-03-05",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1977,
+            "name": "Atlético Mineiro"
+          },
+          "shirtNumber": 7,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 4900000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/243623",
+          "fetchedAt": "2026-11-23T22:38:02.421Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/243623/image"
         }
       },
       "team": {
@@ -14244,6 +17791,37 @@
             "hi": "ल्येंको",
             "ru": "Лянко"
           }
+        },
+        "profile": {
+          "id": 797893,
+          "name": "Lyanco",
+          "shortName": "Lyanco",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 187,
+          "birthDate": "1997-02-01",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1977,
+            "name": "Atlético Mineiro"
+          },
+          "shirtNumber": 13,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 4800000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/797893",
+          "fetchedAt": "2026-11-23T22:38:03.665Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/797893/image"
         }
       },
       "team": {
@@ -14367,6 +17945,37 @@
             "ar": "أنتوني",
             "ru": "Антони"
           }
+        },
+        "profile": {
+          "id": 1106134,
+          "name": "Anthoni",
+          "shortName": "Anthoni",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 191,
+          "birthDate": "2002-01-23",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1966,
+            "name": "Internacional"
+          },
+          "shirtNumber": 12,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 2800000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1106134",
+          "fetchedAt": "2026-11-23T22:38:04.871Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1106134/image"
         }
       },
       "team": {
@@ -14490,6 +18099,37 @@
             "ar": "والتر",
             "ru": "Уолтер"
           }
+        },
+        "profile": {
+          "id": 329055,
+          "name": "Walter",
+          "shortName": "Walter",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 188,
+          "birthDate": "1987-11-18",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 21982,
+            "name": "Mirassol"
+          },
+          "shirtNumber": 22,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 140000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/329055",
+          "fetchedAt": "2026-11-23T22:38:21.118Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/329055/image"
         }
       },
       "team": {
@@ -14618,6 +18258,37 @@
             "hi": "एफ. ब्रूनो",
             "ru": "Ф. Бруно"
           }
+        },
+        "profile": {
+          "id": 840220,
+          "name": "Fabrício Bruno",
+          "shortName": "F. Bruno",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 192,
+          "birthDate": "1996-02-12",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1954,
+            "name": "Cruzeiro"
+          },
+          "shirtNumber": 15,
+          "contractUntil": "2030-12-31",
+          "marketValue": {
+            "value": 11000000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/840220",
+          "fetchedAt": "2026-11-23T22:38:22.328Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/840220/image"
         }
       },
       "team": {
@@ -14741,6 +18412,39 @@
             "ar": "ب. غوميز",
             "ru": "Б. Гомес"
           }
+        },
+        "profile": {
+          "id": 995071,
+          "name": "Bruno Gomes",
+          "shortName": "B. Gomes",
+          "position": "D",
+          "positionsDetailed": [
+            "DR",
+            "MC",
+            "DC"
+          ],
+          "heightCm": 175,
+          "birthDate": "2001-04-04",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1966,
+            "name": "Internacional"
+          },
+          "shirtNumber": 15,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 7300000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/995071",
+          "fetchedAt": "2026-11-23T22:38:23.551Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/995071/image"
         }
       },
       "team": {
@@ -14864,6 +18568,34 @@
             "ar": "ج. ألينكار",
             "ru": "Ж. Аленкар"
           }
+        },
+        "profile": {
+          "id": 2162650,
+          "name": "João Alencar",
+          "shortName": "J. Alencar",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 187,
+          "birthDate": "2007-06-25",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1968,
+            "name": "Santos"
+          },
+          "shirtNumber": 42,
+          "contractUntil": "2030-06-30",
+          "marketValue": null,
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/2162650",
+          "fetchedAt": "2026-11-23T22:38:24.822Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/2162650/image"
         }
       },
       "team": {
@@ -14987,6 +18719,37 @@
             "ar": "خ. فريتيز",
             "ru": "Х. Фрейтес"
           }
+        },
+        "profile": {
+          "id": 962187,
+          "name": "Juan Pablo Freytes",
+          "shortName": "J. Freytes",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 182,
+          "birthDate": "2000-01-11",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "AR",
+            "alpha3": "ARG",
+            "name": "Argentina",
+            "slug": "argentina"
+          },
+          "currentTeam": {
+            "id": 1961,
+            "name": "Fluminense"
+          },
+          "shirtNumber": 22,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 5200000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/962187",
+          "fetchedAt": "2026-11-23T22:38:26.050Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/962187/image"
         }
       },
       "team": {
@@ -15110,6 +18873,37 @@
             "ar": "ب. رينغيل",
             "ru": "П. Ранхель"
           }
+        },
+        "profile": {
+          "id": 1092614,
+          "name": "Pedro Rangel",
+          "shortName": "P. Rangel",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 192,
+          "birthDate": "2000-06-29",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1982,
+            "name": "Coritiba"
+          },
+          "shirtNumber": 22,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 1100000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1092614",
+          "fetchedAt": "2026-11-23T22:38:27.264Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1092614/image"
         }
       },
       "team": {
@@ -15237,6 +19031,37 @@
             "hi": "गुस्तावो हेनरिक",
             "ru": "Г. Энрике"
           }
+        },
+        "profile": {
+          "id": 243181,
+          "name": "Gustavo Henrique",
+          "shortName": "G. Henrique",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 195,
+          "birthDate": "1993-03-24",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1957,
+            "name": "Corinthians"
+          },
+          "shirtNumber": 13,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 545000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/243181",
+          "fetchedAt": "2026-11-23T22:38:28.508Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/243181/image"
         }
       },
       "team": {
@@ -15364,6 +19189,37 @@
             "hi": "आर. अर्बोलेडा",
             "ru": "Р. Арболеда"
           }
+        },
+        "profile": {
+          "id": 338937,
+          "name": "Robert Arboleda",
+          "shortName": "R. Arboleda",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 187,
+          "birthDate": "1991-10-22",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "EC",
+            "alpha3": "ECU",
+            "name": "Ecuador",
+            "slug": "ecuador"
+          },
+          "currentTeam": {
+            "id": 1981,
+            "name": "São Paulo"
+          },
+          "shirtNumber": 5,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 310000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/338937",
+          "fetchedAt": "2026-11-23T22:38:29.715Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/338937/image"
         }
       },
       "team": {
@@ -15487,6 +19343,37 @@
             "ar": "رينالدو",
             "ru": "Рейнальдо"
           }
+        },
+        "profile": {
+          "id": 243109,
+          "name": "Reinaldo",
+          "shortName": "Reinaldo",
+          "position": "D",
+          "positionsDetailed": [
+            "DL"
+          ],
+          "heightCm": 178,
+          "birthDate": "1989-09-28",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 21982,
+            "name": "Mirassol"
+          },
+          "shirtNumber": 6,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 360000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/243109",
+          "fetchedAt": "2026-11-23T22:38:30.937Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/243109/image"
         }
       },
       "team": {
@@ -15611,6 +19498,38 @@
             "ar": "هيركوليس",
             "ru": "Эркулес"
           }
+        },
+        "profile": {
+          "id": 1104068,
+          "name": "Hércules",
+          "shortName": "Hércules",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM"
+          ],
+          "heightCm": 178,
+          "birthDate": "2000-10-20",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1961,
+            "name": "Fluminense"
+          },
+          "shirtNumber": 35,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 15500000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1104068",
+          "fetchedAt": "2026-11-23T22:38:32.186Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1104068/image"
         }
       },
       "team": {
@@ -15734,6 +19653,38 @@
             "ar": "فابريزي",
             "ru": "Ф. Колидио"
           }
+        },
+        "profile": {
+          "id": 927308,
+          "name": "Facundo Colidio",
+          "shortName": "F. Colidio",
+          "position": "F",
+          "positionsDetailed": [
+            "LW",
+            "ST"
+          ],
+          "heightCm": 179,
+          "birthDate": "2000-01-04",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "AR",
+            "alpha3": "ARG",
+            "name": "Argentina",
+            "slug": "argentina"
+          },
+          "currentTeam": {
+            "id": 1974,
+            "name": "Vasco da Gama"
+          },
+          "shirtNumber": 9,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 5400000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/927308",
+          "fetchedAt": "2026-11-23T22:38:33.418Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/927308/image"
         }
       },
       "team": {
@@ -15861,6 +19812,37 @@
             "hi": "पी. कूटिन्हो",
             "ru": "Ф. Кутиньо"
           }
+        },
+        "profile": {
+          "id": 119159,
+          "name": "Philippe Coutinho",
+          "shortName": "P. Coutinho",
+          "position": "M",
+          "positionsDetailed": [
+            "AM"
+          ],
+          "heightCm": 172,
+          "birthDate": "1992-06-11",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1968,
+            "name": "Santos"
+          },
+          "shirtNumber": 11,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 2700000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/119159",
+          "fetchedAt": "2026-11-23T22:38:34.641Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/119159/image"
         }
       },
       "team": {
@@ -15988,6 +19970,38 @@
             "hi": "एम. एंटोनियो",
             "ru": "М. Антонио"
           }
+        },
+        "profile": {
+          "id": 905453,
+          "name": "Marcos Antônio",
+          "shortName": "M. Antônio",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM"
+          ],
+          "heightCm": 166,
+          "birthDate": "2000-06-13",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1981,
+            "name": "São Paulo"
+          },
+          "shirtNumber": 8,
+          "contractUntil": "2030-12-31",
+          "marketValue": {
+            "value": 14400000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/905453",
+          "fetchedAt": "2026-11-23T22:38:35.870Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/905453/image"
         }
       },
       "team": {
@@ -16115,6 +20129,37 @@
             "hi": "पॉलिन्हो",
             "ru": "Паулиньо"
           }
+        },
+        "profile": {
+          "id": 885179,
+          "name": "Paulinho",
+          "shortName": "Paulinho",
+          "position": "F",
+          "positionsDetailed": [
+            "ST"
+          ],
+          "heightCm": 175,
+          "birthDate": "2000-07-15",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1963,
+            "name": "Palmeiras"
+          },
+          "shirtNumber": 10,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 6700000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/885179",
+          "fetchedAt": "2026-11-23T22:38:37.105Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/885179/image"
         }
       },
       "team": {
@@ -16242,6 +20287,37 @@
             "hi": "सैंटोस",
             "ru": "Сантос"
           }
+        },
+        "profile": {
+          "id": 166491,
+          "name": "Santos",
+          "shortName": "Santos",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 188,
+          "birthDate": "1990-03-17",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1967,
+            "name": "Athletico"
+          },
+          "shirtNumber": 23,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 425000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/166491",
+          "fetchedAt": "2026-11-23T22:38:38.322Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/166491/image"
         }
       },
       "team": {
@@ -16369,6 +20445,37 @@
             "hi": "मौरिसियो",
             "ru": "Маурисио"
           }
+        },
+        "profile": {
+          "id": 986233,
+          "name": "Mauricio",
+          "shortName": "Mauricio",
+          "position": "M",
+          "positionsDetailed": [
+            "AM"
+          ],
+          "heightCm": 174,
+          "birthDate": "2001-06-22",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "PY",
+            "alpha3": "PRY",
+            "name": "Paraguay",
+            "slug": "paraguay"
+          },
+          "currentTeam": {
+            "id": 1963,
+            "name": "Palmeiras"
+          },
+          "shirtNumber": 18,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 18900000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/986233",
+          "fetchedAt": "2026-11-23T22:38:39.536Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/986233/image"
         }
       },
       "team": {
@@ -16496,6 +20603,37 @@
             "hi": "के. अरोयो",
             "ru": "К. Арройо"
           }
+        },
+        "profile": {
+          "id": 1482431,
+          "name": "Keny Arroyo",
+          "shortName": "K. Arroyo",
+          "position": "M",
+          "positionsDetailed": [
+            "RW"
+          ],
+          "heightCm": 176,
+          "birthDate": "2006-02-14",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "EC",
+            "alpha3": "ECU",
+            "name": "Ecuador",
+            "slug": "ecuador"
+          },
+          "currentTeam": {
+            "id": 1954,
+            "name": "Cruzeiro"
+          },
+          "shirtNumber": 99,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 11600000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1482431",
+          "fetchedAt": "2026-11-23T22:38:41.096Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1482431/image"
         }
       },
       "team": {
@@ -16623,6 +20761,37 @@
             "hi": "सी. कोरोनेल",
             "ru": "К. Коронель"
           }
+        },
+        "profile": {
+          "id": 800150,
+          "name": "Carlos Coronel",
+          "shortName": "C. Coronel",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 190,
+          "birthDate": "1996-12-29",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "PY",
+            "alpha3": "PRY",
+            "name": "Paraguay",
+            "slug": "paraguay"
+          },
+          "currentTeam": {
+            "id": 1981,
+            "name": "São Paulo"
+          },
+          "shirtNumber": 31,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 1400000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/800150",
+          "fetchedAt": "2026-11-23T22:38:42.760Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/800150/image"
         }
       },
       "team": {
@@ -16750,6 +20919,38 @@
             "hi": "एल. गुस्तावो",
             "ru": "Л. Густаво"
           }
+        },
+        "profile": {
+          "id": 29735,
+          "name": "Luiz Gustavo",
+          "shortName": "L. Gustavo",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM"
+          ],
+          "heightCm": 187,
+          "birthDate": "1987-07-23",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1967,
+            "name": "Athletico"
+          },
+          "shirtNumber": 14,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 180000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/29735",
+          "fetchedAt": "2026-11-23T22:38:43.989Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/29735/image"
         }
       },
       "team": {
@@ -16877,6 +21078,37 @@
             "hi": "जी. पॉलिस्ता",
             "ru": "Г. Паулиста"
           }
+        },
+        "profile": {
+          "id": 124737,
+          "name": "Gabriel Paulista",
+          "shortName": "G. Paulista",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 187,
+          "birthDate": "1990-11-26",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1957,
+            "name": "Corinthians"
+          },
+          "shirtNumber": 3,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 520000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/124737",
+          "fetchedAt": "2026-11-23T22:38:45.211Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/124737/image"
         }
       },
       "team": {
@@ -17000,6 +21232,37 @@
             "ar": "ج. فيكتور",
             "ru": "Ж. Виктор"
           }
+        },
+        "profile": {
+          "id": 863297,
+          "name": "João Victor",
+          "shortName": "J. Victor",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 188,
+          "birthDate": "1997-09-02",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 21982,
+            "name": "Mirassol"
+          },
+          "shirtNumber": 34,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 1500000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/863297",
+          "fetchedAt": "2026-11-23T22:38:46.441Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/863297/image"
         }
       },
       "team": {
@@ -17128,6 +21391,37 @@
             "hi": "फैबियो",
             "ru": "Фабио"
           }
+        },
+        "profile": {
+          "id": 17785,
+          "name": "Fábio",
+          "shortName": "Fábio",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 188,
+          "birthDate": "1980-09-30",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1961,
+            "name": "Fluminense"
+          },
+          "shirtNumber": 1,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 79000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/17785",
+          "fetchedAt": "2026-11-23T22:38:47.643Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/17785/image"
         }
       },
       "team": {
@@ -17250,6 +21544,37 @@
           "shortNameTranslation": {
             "ar": "ديونيس"
           }
+        },
+        "profile": {
+          "id": 1128754,
+          "name": "Diogenes",
+          "shortName": "Diogenes",
+          "position": "G",
+          "positionsDetailed": [
+            "GK"
+          ],
+          "heightCm": 190,
+          "birthDate": "2001-01-06",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1968,
+            "name": "Santos"
+          },
+          "shirtNumber": 1,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 185000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1128754",
+          "fetchedAt": "2026-11-23T22:38:48.849Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1128754/image"
         }
       },
       "team": {
@@ -17372,6 +21697,38 @@
           "shortNameTranslation": {
             "ar": "جاير"
           }
+        },
+        "profile": {
+          "id": 268419,
+          "name": "Jair",
+          "shortName": "Jair",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM"
+          ],
+          "heightCm": 178,
+          "birthDate": "1994-08-26",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1974,
+            "name": "Vasco da Gama"
+          },
+          "shirtNumber": 8,
+          "contractUntil": "2026-12-31",
+          "marketValue": {
+            "value": 580000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/268419",
+          "fetchedAt": "2026-11-23T22:38:50.067Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/268419/image"
         }
       },
       "team": {
@@ -17495,6 +21852,37 @@
             "ar": "فييري",
             "ru": "Виери"
           }
+        },
+        "profile": {
+          "id": 1907760,
+          "name": "Viery",
+          "shortName": "Viery",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 187,
+          "birthDate": "2005-01-01",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 2693,
+            "name": "Fiorentina"
+          },
+          "shirtNumber": 33,
+          "contractUntil": "2031-06-30",
+          "marketValue": {
+            "value": 13200000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1907760",
+          "fetchedAt": "2026-11-23T22:38:51.272Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1907760/image"
         }
       },
       "team": {
@@ -17618,6 +22006,38 @@
             "ar": "غ. مارتينز",
             "ru": "Г. Мартинс"
           }
+        },
+        "profile": {
+          "id": 1105796,
+          "name": "Gustavo Martins",
+          "shortName": "G. Martins",
+          "position": "D",
+          "positionsDetailed": [
+            "DC",
+            "DR"
+          ],
+          "heightCm": 191,
+          "birthDate": "2002-08-11",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 5926,
+            "name": "Grêmio"
+          },
+          "shirtNumber": 6,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 5200000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1105796",
+          "fetchedAt": "2026-11-23T22:26:25.852Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1105796/image"
         }
       },
       "team": {
@@ -17745,6 +22165,38 @@
             "hi": "जी. प्लाटा",
             "ru": "Г. Плата"
           }
+        },
+        "profile": {
+          "id": 937937,
+          "name": "Gonzalo Plata",
+          "shortName": "G. Plata",
+          "position": "M",
+          "positionsDetailed": [
+            "RW",
+            "ST"
+          ],
+          "heightCm": 178,
+          "birthDate": "2000-11-01",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "EC",
+            "alpha3": "ECU",
+            "name": "Ecuador",
+            "slug": "ecuador"
+          },
+          "currentTeam": {
+            "id": 5981,
+            "name": "Flamengo"
+          },
+          "shirtNumber": 19,
+          "contractUntil": "2029-06-30",
+          "marketValue": {
+            "value": 8600000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/937937",
+          "fetchedAt": "2026-11-23T22:38:52.498Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/937937/image"
         }
       },
       "team": {
@@ -17872,6 +22324,37 @@
             "hi": "फ़ेरेरिन्हा",
             "ru": "Феррейринья"
           }
+        },
+        "profile": {
+          "id": 998499,
+          "name": "Ferreirinha",
+          "shortName": "Ferreira",
+          "position": "M",
+          "positionsDetailed": [
+            "LW"
+          ],
+          "heightCm": 176,
+          "birthDate": "1997-12-31",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1981,
+            "name": "São Paulo"
+          },
+          "shirtNumber": 11,
+          "contractUntil": "2027-12-31",
+          "marketValue": {
+            "value": 2900000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/998499",
+          "fetchedAt": "2026-11-23T22:38:53.753Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/998499/image"
         }
       },
       "team": {
@@ -17999,6 +22482,37 @@
             "hi": "ई. पुल्गा",
             "ru": "Э. Пулга"
           }
+        },
+        "profile": {
+          "id": 1104070,
+          "name": "Erick Pulga",
+          "shortName": "E. Pulga",
+          "position": "F",
+          "positionsDetailed": [
+            "LW"
+          ],
+          "heightCm": 169,
+          "birthDate": "2000-10-01",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1955,
+            "name": "Bahia"
+          },
+          "shirtNumber": 16,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 13800000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/1104070",
+          "fetchedAt": "2026-11-23T22:38:54.988Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/1104070/image"
         }
       },
       "team": {
@@ -18122,6 +22636,38 @@
             "ar": "ن. أسيفيدو",
             "ru": "Н. Асеведо"
           }
+        },
+        "profile": {
+          "id": 959620,
+          "name": "Nicolás Acevedo",
+          "shortName": "N. Acevedo",
+          "position": "M",
+          "positionsDetailed": [
+            "MC",
+            "DM"
+          ],
+          "heightCm": 173,
+          "birthDate": "1999-04-14",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "UY",
+            "alpha3": "URY",
+            "name": "Uruguay",
+            "slug": "uruguay"
+          },
+          "currentTeam": {
+            "id": 1955,
+            "name": "Bahia"
+          },
+          "shirtNumber": 5,
+          "contractUntil": "2031-12-31",
+          "marketValue": {
+            "value": 9400000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/959620",
+          "fetchedAt": "2026-11-23T22:38:56.232Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/959620/image"
         }
       },
       "team": {
@@ -18249,6 +22795,37 @@
             "hi": "एफ. बाल्बुएना",
             "ru": "Ф. Бальбуэна"
           }
+        },
+        "profile": {
+          "id": 339447,
+          "name": "Fabián Balbuena",
+          "shortName": "F. Balbuena",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 188,
+          "birthDate": "1991-08-23",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "PY",
+            "alpha3": "PRY",
+            "name": "Paraguay",
+            "slug": "paraguay"
+          },
+          "currentTeam": {
+            "id": 5926,
+            "name": "Grêmio"
+          },
+          "shirtNumber": 2,
+          "contractUntil": "2027-06-30",
+          "marketValue": {
+            "value": 635000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/339447",
+          "fetchedAt": "2026-11-23T22:26:22.210Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/339447/image"
         }
       },
       "team": {
@@ -18376,6 +22953,37 @@
             "hi": "एम. कैमारा",
             "ru": "В. Хуго"
           }
+        },
+        "profile": {
+          "id": 794838,
+          "name": "Vitor Hugo",
+          "shortName": "V. Hugo",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 187,
+          "birthDate": "1991-05-20",
+          "preferredFoot": "Left",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1977,
+            "name": "Atlético Mineiro"
+          },
+          "shirtNumber": 14,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 460000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/794838",
+          "fetchedAt": "2026-11-23T22:38:57.487Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/794838/image"
         }
       },
       "team": {
@@ -18499,6 +23107,37 @@
             "ar": "ف. تيخييرا",
             "ru": "В. Тейшейра"
           }
+        },
+        "profile": {
+          "id": 2569547,
+          "name": "Vitão",
+          "shortName": "V. F. C. Teixeira",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 194,
+          "birthDate": "2008-03-03",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1977,
+            "name": "Atlético Mineiro"
+          },
+          "shirtNumber": 40,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 1600000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/2569547",
+          "fetchedAt": "2026-11-23T22:38:58.943Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/2569547/image"
         }
       },
       "team": {
@@ -18622,6 +23261,38 @@
             "ar": "ج. مارانهاو",
             "ru": "Д. Мараньян"
           }
+        },
+        "profile": {
+          "id": 880204,
+          "name": "Jacy Maranhão",
+          "shortName": "J. Maranhão",
+          "position": "D",
+          "positionsDetailed": [
+            "DC",
+            "MC"
+          ],
+          "heightCm": 192,
+          "birthDate": "1997-07-11",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "BR",
+            "alpha3": "BRA",
+            "name": "Brazil",
+            "slug": "brazil"
+          },
+          "currentTeam": {
+            "id": 1982,
+            "name": "Coritiba"
+          },
+          "shirtNumber": 55,
+          "contractUntil": "2028-12-31",
+          "marketValue": {
+            "value": 2900000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/880204",
+          "fetchedAt": "2026-11-23T22:39:00.177Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/880204/image"
         }
       },
       "team": {
@@ -18745,6 +23416,37 @@
             "ar": "غ. رودريغيز",
             "ru": "Г. Родригес"
           }
+        },
+        "profile": {
+          "id": 997239,
+          "name": "Guzmán Rodríguez",
+          "shortName": "G. Rodríguez",
+          "position": "D",
+          "positionsDetailed": [
+            "DC"
+          ],
+          "heightCm": 185,
+          "birthDate": "2000-02-08",
+          "preferredFoot": "Right",
+          "country": {
+            "alpha2": "UY",
+            "alpha3": "URY",
+            "name": "Uruguay",
+            "slug": "uruguay"
+          },
+          "currentTeam": {
+            "id": 1999,
+            "name": "Red Bull Bragantino"
+          },
+          "shirtNumber": 2,
+          "contractUntil": "2029-12-31",
+          "marketValue": {
+            "value": 3600000,
+            "currency": "EUR"
+          },
+          "sourceUrl": "https://www.sofascore.com/api/v1/player/997239",
+          "fetchedAt": "2026-11-23T22:39:01.385Z",
+          "photoUrl": "https://img.sofascore.com/api/v1/player/997239/image"
         }
       },
       "team": {
