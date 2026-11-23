@@ -1,4 +1,4 @@
-﻿{
+{
   "version": 1,
   "competitions": [
     {
@@ -6,6 +6,45 @@
       "season": "2026",
       "path": "brasileirao-serie-a-2026.json",
       "originalArchive": "brasileirao-serie-a-2026-originais.zip"
+    },
+    {
+      "competition": "EFL Championship",
+      "season": "2025/26",
+      "path": "dados/efl-championship-2025-26-f48e08a0c44e762a/consolidado.json",
+      "originals": [
+        {
+          "name": "01.json",
+          "path": "dados/efl-championship-2025-26-f48e08a0c44e762a/originais/4c9807b7-c8ff-44f8-956f-a2f08eefbbc3/01-01.json"
+        },
+        {
+          "name": "02.json",
+          "path": "dados/efl-championship-2025-26-f48e08a0c44e762a/originais/4c9807b7-c8ff-44f8-956f-a2f08eefbbc3/02-02.json"
+        },
+        {
+          "name": "03.json",
+          "path": "dados/efl-championship-2025-26-f48e08a0c44e762a/originais/4c9807b7-c8ff-44f8-956f-a2f08eefbbc3/03-03.json"
+        },
+        {
+          "name": "04.json",
+          "path": "dados/efl-championship-2025-26-f48e08a0c44e762a/originais/4c9807b7-c8ff-44f8-956f-a2f08eefbbc3/04-04.json"
+        },
+        {
+          "name": "05.json",
+          "path": "dados/efl-championship-2025-26-f48e08a0c44e762a/originais/4c9807b7-c8ff-44f8-956f-a2f08eefbbc3/05-05.json"
+        },
+        {
+          "name": "06.json",
+          "path": "dados/efl-championship-2025-26-f48e08a0c44e762a/originais/4c9807b7-c8ff-44f8-956f-a2f08eefbbc3/06-06.json"
+        },
+        {
+          "name": "07.json",
+          "path": "dados/efl-championship-2025-26-f48e08a0c44e762a/originais/4c9807b7-c8ff-44f8-956f-a2f08eefbbc3/07-07.json"
+        },
+        {
+          "name": "08.json",
+          "path": "dados/efl-championship-2025-26-f48e08a0c44e762a/originais/4c9807b7-c8ff-44f8-956f-a2f08eefbbc3/08-08.json"
+        }
+      ]
     }
   ]
 }
