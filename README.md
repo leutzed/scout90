@@ -1,13 +1,13 @@
 ﻿# Scout90
 
-[Abrir o painel no GitHub Pages](https://leutzed.github.io/scout90/)
+[Abrir o painel](https://leutzed.github.io/scout90/)
 
-## Campeonatos
+Cada campeonato e temporada tem um JSON consolidado. A base inicial do Brasileirão Série A 2026 tem 734 jogadores. As oito partes originais estão em `brasileirao-serie-a-2026-originais.zip`.
 
-A base inicial está em `brasileirao-serie-a-2026.json`, consolidada a partir de oito partes da mesma exportação. Ela contém 734 jogadores e preserva os registros recebidos.
+## Publicar um campeonato
 
-Para adicionar outro recorte, abra **Importar base**, selecione todas as partes JSON ou TXT e informe o campeonato e a temporada. As bases ficam disponíveis no seletor **Campeonato e temporada**. Uma nova exportação do mesmo recorte substitui a anterior mediante confirmação.
+No painel, abra **Importar base**, selecione todas as partes da mesma exportação e informe o campeonato e a temporada. Marque **Salvar também no GitHub** para publicar o lote. O painel valida a paginação e salva os originais, o consolidado e o catálogo em um único commit na branch `main`. Revisões anteriores dos originais continuam no repositório.
 
-Use **Baixar JSON** para guardar uma cópia consolidada da base ativa. Esse arquivo pode ser reimportado em outro navegador e já inclui o nome do campeonato e a temporada.
+Use um [token fine-grained](https://github.com/settings/personal-access-tokens/new) com acesso apenas a `leutzed/scout90` e **Contents: Read and write**. O painel usa o token diretamente na API do GitHub e não o grava. Os arquivos enviados ao repositório são públicos e aparecem no seletor depois da implantação do GitHub Pages.
 
-As bases importadas ficam no armazenamento local do navegador. Fichas, notas e seleções de ocultação também são locais. O JSON exportado contém as estatísticas da base ativa.
+Para uso local, importe sem marcar a opção do GitHub. Use **Baixar JSON** para exportar as estatísticas da base ativa. Fichas e anotações ficam no navegador.

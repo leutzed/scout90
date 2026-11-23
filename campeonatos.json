@@ -1,0 +1,11 @@
+﻿{
+  "version": 1,
+  "competitions": [
+    {
+      "competition": "Brasileirão Série A",
+      "season": "2026",
+      "path": "brasileirao-serie-a-2026.json",
+      "originalArchive": "brasileirao-serie-a-2026-originais.zip"
+    }
+  ]
+}
