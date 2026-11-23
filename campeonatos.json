@@ -45,6 +45,37 @@
           "path": "dados/efl-championship-2025-26-f48e08a0c44e762a/originais/4c9807b7-c8ff-44f8-956f-a2f08eefbbc3/08-08.json"
         }
       ]
+    },
+    {
+      "competition": "Premier League",
+      "season": "2025/26",
+      "path": "dados/premier-league-2025-26-eea61c876a3eaf15/consolidado.json",
+      "originals": [
+        {
+          "name": "01.json",
+          "path": "dados/premier-league-2025-26-eea61c876a3eaf15/originais/460842df-c2d6-41f6-98a9-e100075ec0bd/01-01.json"
+        },
+        {
+          "name": "02.json",
+          "path": "dados/premier-league-2025-26-eea61c876a3eaf15/originais/460842df-c2d6-41f6-98a9-e100075ec0bd/02-02.json"
+        },
+        {
+          "name": "03.json",
+          "path": "dados/premier-league-2025-26-eea61c876a3eaf15/originais/460842df-c2d6-41f6-98a9-e100075ec0bd/03-03.json"
+        },
+        {
+          "name": "04.json",
+          "path": "dados/premier-league-2025-26-eea61c876a3eaf15/originais/460842df-c2d6-41f6-98a9-e100075ec0bd/04-04.json"
+        },
+        {
+          "name": "05.json",
+          "path": "dados/premier-league-2025-26-eea61c876a3eaf15/originais/460842df-c2d6-41f6-98a9-e100075ec0bd/05-05.json"
+        },
+        {
+          "name": "06.json",
+          "path": "dados/premier-league-2025-26-eea61c876a3eaf15/originais/460842df-c2d6-41f6-98a9-e100075ec0bd/06-06.json"
+        }
+      ]
     }
   ]
 }
