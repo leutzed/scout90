@@ -107,6 +107,45 @@
           "path": "dados/serie-b-italia-2025-26-b078e9e6b6169464/originais/01124099-0dd0-4f37-b8e2-9fa64d2ef398/06-06.json"
         }
       ]
+    },
+    {
+      "competition": "Brasileirão Série C",
+      "season": "2026",
+      "path": "dados/brasileirao-serie-c-2026-4cc481b2c0464d61/consolidado.json",
+      "originals": [
+        {
+          "name": "01.json",
+          "path": "dados/brasileirao-serie-c-2026-4cc481b2c0464d61/originais/dc538689-0f17-450c-8af8-b5da6d383b75/01-01.json"
+        },
+        {
+          "name": "02.json",
+          "path": "dados/brasileirao-serie-c-2026-4cc481b2c0464d61/originais/dc538689-0f17-450c-8af8-b5da6d383b75/02-02.json"
+        },
+        {
+          "name": "03.json",
+          "path": "dados/brasileirao-serie-c-2026-4cc481b2c0464d61/originais/dc538689-0f17-450c-8af8-b5da6d383b75/03-03.json"
+        },
+        {
+          "name": "04.json",
+          "path": "dados/brasileirao-serie-c-2026-4cc481b2c0464d61/originais/dc538689-0f17-450c-8af8-b5da6d383b75/04-04.json"
+        },
+        {
+          "name": "05.json",
+          "path": "dados/brasileirao-serie-c-2026-4cc481b2c0464d61/originais/dc538689-0f17-450c-8af8-b5da6d383b75/05-05.json"
+        },
+        {
+          "name": "06.json",
+          "path": "dados/brasileirao-serie-c-2026-4cc481b2c0464d61/originais/dc538689-0f17-450c-8af8-b5da6d383b75/06-06.json"
+        },
+        {
+          "name": "07.json",
+          "path": "dados/brasileirao-serie-c-2026-4cc481b2c0464d61/originais/dc538689-0f17-450c-8af8-b5da6d383b75/07-07.json"
+        },
+        {
+          "name": "08.json",
+          "path": "dados/brasileirao-serie-c-2026-4cc481b2c0464d61/originais/dc538689-0f17-450c-8af8-b5da6d383b75/08-08.json"
+        }
+      ]
     }
   ]
 }
