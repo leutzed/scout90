@@ -328,6 +328,297 @@
           "path": "dados/ligue-1-2025-26-ae941f95f3d43a59/originais/207b55c5-9567-4ad5-85d0-2e54d7023c37/06-06.json"
         }
       ]
+    },
+    {
+      "competition": "Liga Profesional de Fútbol",
+      "season": "2026",
+      "path": "dados/liga-profesional-de-futbol-2026-357754ed665def97/consolidado.json",
+      "originals": [
+        {
+          "name": "01.json",
+          "path": "dados/liga-profesional-de-futbol-2026-357754ed665def97/originais/4414635e-46e6-42c5-9abe-f0c1f9912124/01-01.json"
+        },
+        {
+          "name": "02.json",
+          "path": "dados/liga-profesional-de-futbol-2026-357754ed665def97/originais/4414635e-46e6-42c5-9abe-f0c1f9912124/02-02.json"
+        },
+        {
+          "name": "03.json",
+          "path": "dados/liga-profesional-de-futbol-2026-357754ed665def97/originais/4414635e-46e6-42c5-9abe-f0c1f9912124/03-03.json"
+        },
+        {
+          "name": "04.json",
+          "path": "dados/liga-profesional-de-futbol-2026-357754ed665def97/originais/4414635e-46e6-42c5-9abe-f0c1f9912124/04-04.json"
+        },
+        {
+          "name": "05.json",
+          "path": "dados/liga-profesional-de-futbol-2026-357754ed665def97/originais/4414635e-46e6-42c5-9abe-f0c1f9912124/05-05.json"
+        },
+        {
+          "name": "06.json",
+          "path": "dados/liga-profesional-de-futbol-2026-357754ed665def97/originais/4414635e-46e6-42c5-9abe-f0c1f9912124/06-06.json"
+        },
+        {
+          "name": "07.json",
+          "path": "dados/liga-profesional-de-futbol-2026-357754ed665def97/originais/4414635e-46e6-42c5-9abe-f0c1f9912124/07-07.json"
+        },
+        {
+          "name": "08.json",
+          "path": "dados/liga-profesional-de-futbol-2026-357754ed665def97/originais/4414635e-46e6-42c5-9abe-f0c1f9912124/08-08.json"
+        },
+        {
+          "name": "09.json",
+          "path": "dados/liga-profesional-de-futbol-2026-357754ed665def97/originais/4414635e-46e6-42c5-9abe-f0c1f9912124/09-09.json"
+        },
+        {
+          "name": "10.json",
+          "path": "dados/liga-profesional-de-futbol-2026-357754ed665def97/originais/4414635e-46e6-42c5-9abe-f0c1f9912124/10-10.json"
+        },
+        {
+          "name": "11.json",
+          "path": "dados/liga-profesional-de-futbol-2026-357754ed665def97/originais/4414635e-46e6-42c5-9abe-f0c1f9912124/11-11.json"
+        }
+      ]
+    },
+    {
+      "competition": "División Profesional (Bolívia)",
+      "season": "2026",
+      "path": "dados/division-profesional-bolivia-2026-75e84840be4ae3f7/consolidado.json",
+      "originals": [
+        {
+          "name": "01.json",
+          "path": "dados/division-profesional-bolivia-2026-75e84840be4ae3f7/originais/6da68bd0-c8ae-48c9-94b5-6a4b85243339/01-01.json"
+        },
+        {
+          "name": "02.json",
+          "path": "dados/division-profesional-bolivia-2026-75e84840be4ae3f7/originais/6da68bd0-c8ae-48c9-94b5-6a4b85243339/02-02.json"
+        },
+        {
+          "name": "03.json",
+          "path": "dados/division-profesional-bolivia-2026-75e84840be4ae3f7/originais/6da68bd0-c8ae-48c9-94b5-6a4b85243339/03-03.json"
+        },
+        {
+          "name": "04.json",
+          "path": "dados/division-profesional-bolivia-2026-75e84840be4ae3f7/originais/6da68bd0-c8ae-48c9-94b5-6a4b85243339/04-04.json"
+        },
+        {
+          "name": "05.json",
+          "path": "dados/division-profesional-bolivia-2026-75e84840be4ae3f7/originais/6da68bd0-c8ae-48c9-94b5-6a4b85243339/05-05.json"
+        },
+        {
+          "name": "06.json",
+          "path": "dados/division-profesional-bolivia-2026-75e84840be4ae3f7/originais/6da68bd0-c8ae-48c9-94b5-6a4b85243339/06-06.json"
+        }
+      ]
+    },
+    {
+      "competition": "Liga de Primera (Chile)",
+      "season": "2026",
+      "path": "dados/liga-de-primera-chile-2026-3d652ca83b424d26/consolidado.json",
+      "originals": [
+        {
+          "name": "01.json",
+          "path": "dados/liga-de-primera-chile-2026-3d652ca83b424d26/originais/76d3fdbb-6005-4be7-9112-5f0bbb9bff5f/01-01.json"
+        },
+        {
+          "name": "02.json",
+          "path": "dados/liga-de-primera-chile-2026-3d652ca83b424d26/originais/76d3fdbb-6005-4be7-9112-5f0bbb9bff5f/02-02.json"
+        },
+        {
+          "name": "03.json",
+          "path": "dados/liga-de-primera-chile-2026-3d652ca83b424d26/originais/76d3fdbb-6005-4be7-9112-5f0bbb9bff5f/03-03.json"
+        },
+        {
+          "name": "04.json",
+          "path": "dados/liga-de-primera-chile-2026-3d652ca83b424d26/originais/76d3fdbb-6005-4be7-9112-5f0bbb9bff5f/04-04.json"
+        },
+        {
+          "name": "05.json",
+          "path": "dados/liga-de-primera-chile-2026-3d652ca83b424d26/originais/76d3fdbb-6005-4be7-9112-5f0bbb9bff5f/05-05.json"
+        }
+      ]
+    },
+    {
+      "competition": "Primera A (Colômbia)",
+      "season": "2026",
+      "path": "dados/primera-a-colombia-2026-39d3825ed11c0022/consolidado.json",
+      "originals": [
+        {
+          "name": "01.json",
+          "path": "dados/primera-a-colombia-2026-39d3825ed11c0022/originais/daf4d170-a21f-4ce3-921e-6072a2a5f653/01-01.json"
+        },
+        {
+          "name": "02.json",
+          "path": "dados/primera-a-colombia-2026-39d3825ed11c0022/originais/daf4d170-a21f-4ce3-921e-6072a2a5f653/02-02.json"
+        },
+        {
+          "name": "03.json",
+          "path": "dados/primera-a-colombia-2026-39d3825ed11c0022/originais/daf4d170-a21f-4ce3-921e-6072a2a5f653/03-03.json"
+        },
+        {
+          "name": "04.json",
+          "path": "dados/primera-a-colombia-2026-39d3825ed11c0022/originais/daf4d170-a21f-4ce3-921e-6072a2a5f653/04-04.json"
+        },
+        {
+          "name": "05.json",
+          "path": "dados/primera-a-colombia-2026-39d3825ed11c0022/originais/daf4d170-a21f-4ce3-921e-6072a2a5f653/05-05.json"
+        },
+        {
+          "name": "06.json",
+          "path": "dados/primera-a-colombia-2026-39d3825ed11c0022/originais/daf4d170-a21f-4ce3-921e-6072a2a5f653/06-06.json"
+        },
+        {
+          "name": "07.json",
+          "path": "dados/primera-a-colombia-2026-39d3825ed11c0022/originais/daf4d170-a21f-4ce3-921e-6072a2a5f653/07-07.json"
+        },
+        {
+          "name": "08.json",
+          "path": "dados/primera-a-colombia-2026-39d3825ed11c0022/originais/daf4d170-a21f-4ce3-921e-6072a2a5f653/08-08.json"
+        }
+      ]
+    },
+    {
+      "competition": "LigaPro Serie A",
+      "season": "2026",
+      "path": "dados/ligapro-serie-a-2026-6535ca33ae93371a/consolidado.json",
+      "originals": [
+        {
+          "name": "01.json",
+          "path": "dados/ligapro-serie-a-2026-6535ca33ae93371a/originais/a4c21f92-0222-416f-8034-10b963333a47/01-01.json"
+        },
+        {
+          "name": "02.json",
+          "path": "dados/ligapro-serie-a-2026-6535ca33ae93371a/originais/a4c21f92-0222-416f-8034-10b963333a47/02-02.json"
+        },
+        {
+          "name": "03.json",
+          "path": "dados/ligapro-serie-a-2026-6535ca33ae93371a/originais/a4c21f92-0222-416f-8034-10b963333a47/03-03.json"
+        },
+        {
+          "name": "04.json",
+          "path": "dados/ligapro-serie-a-2026-6535ca33ae93371a/originais/a4c21f92-0222-416f-8034-10b963333a47/04-04.json"
+        },
+        {
+          "name": "05.json",
+          "path": "dados/ligapro-serie-a-2026-6535ca33ae93371a/originais/a4c21f92-0222-416f-8034-10b963333a47/05-05.json"
+        }
+      ]
+    },
+    {
+      "competition": "Primera División (Paraguai)",
+      "season": "Clausura 2026",
+      "path": "dados/primera-division-paraguai-clausura-2026-85d46b316d8a8997/consolidado.json",
+      "originals": [
+        {
+          "name": "01.json",
+          "path": "dados/primera-division-paraguai-clausura-2026-85d46b316d8a8997/originais/f310e325-6369-46ec-92d1-49e12c30d7a7/01-01.json"
+        },
+        {
+          "name": "02.json",
+          "path": "dados/primera-division-paraguai-clausura-2026-85d46b316d8a8997/originais/f310e325-6369-46ec-92d1-49e12c30d7a7/02-02.json"
+        },
+        {
+          "name": "03.json",
+          "path": "dados/primera-division-paraguai-clausura-2026-85d46b316d8a8997/originais/f310e325-6369-46ec-92d1-49e12c30d7a7/03-03.json"
+        },
+        {
+          "name": "04.json",
+          "path": "dados/primera-division-paraguai-clausura-2026-85d46b316d8a8997/originais/f310e325-6369-46ec-92d1-49e12c30d7a7/04-04.json"
+        }
+      ]
+    },
+    {
+      "competition": "Liga 1 Te Apuesto",
+      "season": "2026",
+      "path": "dados/liga-1-te-apuesto-2026-8174bbf7f646f250/consolidado.json",
+      "originals": [
+        {
+          "name": "01.json",
+          "path": "dados/liga-1-te-apuesto-2026-8174bbf7f646f250/originais/ccf9cc6b-03a1-4f7f-b6ff-f0f5e02c489a/01-01.json"
+        },
+        {
+          "name": "02.json",
+          "path": "dados/liga-1-te-apuesto-2026-8174bbf7f646f250/originais/ccf9cc6b-03a1-4f7f-b6ff-f0f5e02c489a/02-02.json"
+        },
+        {
+          "name": "03.json",
+          "path": "dados/liga-1-te-apuesto-2026-8174bbf7f646f250/originais/ccf9cc6b-03a1-4f7f-b6ff-f0f5e02c489a/03-03.json"
+        },
+        {
+          "name": "04.json",
+          "path": "dados/liga-1-te-apuesto-2026-8174bbf7f646f250/originais/ccf9cc6b-03a1-4f7f-b6ff-f0f5e02c489a/04-04.json"
+        },
+        {
+          "name": "05.json",
+          "path": "dados/liga-1-te-apuesto-2026-8174bbf7f646f250/originais/ccf9cc6b-03a1-4f7f-b6ff-f0f5e02c489a/05-05.json"
+        },
+        {
+          "name": "06.json",
+          "path": "dados/liga-1-te-apuesto-2026-8174bbf7f646f250/originais/ccf9cc6b-03a1-4f7f-b6ff-f0f5e02c489a/06-06.json"
+        }
+      ]
+    },
+    {
+      "competition": "Liga AUF Uruguaya",
+      "season": "2026",
+      "path": "dados/liga-auf-uruguaya-2026-e669a628c643c34d/consolidado.json",
+      "originals": [
+        {
+          "name": "01.json",
+          "path": "dados/liga-auf-uruguaya-2026-e669a628c643c34d/originais/c35ea2c7-c4a4-4a5d-b81e-da07a3d24ba0/01-01.json"
+        },
+        {
+          "name": "02.json",
+          "path": "dados/liga-auf-uruguaya-2026-e669a628c643c34d/originais/c35ea2c7-c4a4-4a5d-b81e-da07a3d24ba0/02-02.json"
+        },
+        {
+          "name": "03.json",
+          "path": "dados/liga-auf-uruguaya-2026-e669a628c643c34d/originais/c35ea2c7-c4a4-4a5d-b81e-da07a3d24ba0/03-03.json"
+        },
+        {
+          "name": "04.json",
+          "path": "dados/liga-auf-uruguaya-2026-e669a628c643c34d/originais/c35ea2c7-c4a4-4a5d-b81e-da07a3d24ba0/04-04.json"
+        },
+        {
+          "name": "05.json",
+          "path": "dados/liga-auf-uruguaya-2026-e669a628c643c34d/originais/c35ea2c7-c4a4-4a5d-b81e-da07a3d24ba0/05-05.json"
+        },
+        {
+          "name": "06.json",
+          "path": "dados/liga-auf-uruguaya-2026-e669a628c643c34d/originais/c35ea2c7-c4a4-4a5d-b81e-da07a3d24ba0/06-06.json"
+        }
+      ]
+    },
+    {
+      "competition": "Liga FUTVE",
+      "season": "2026",
+      "path": "dados/liga-futve-2026-202f2a4c2b2df6f9/consolidado.json",
+      "originals": [
+        {
+          "name": "01.json",
+          "path": "dados/liga-futve-2026-202f2a4c2b2df6f9/originais/79015208-5a87-40d2-8e59-fe78dc245e26/01-01.json"
+        },
+        {
+          "name": "02.json",
+          "path": "dados/liga-futve-2026-202f2a4c2b2df6f9/originais/79015208-5a87-40d2-8e59-fe78dc245e26/02-02.json"
+        },
+        {
+          "name": "03.json",
+          "path": "dados/liga-futve-2026-202f2a4c2b2df6f9/originais/79015208-5a87-40d2-8e59-fe78dc245e26/03-03.json"
+        },
+        {
+          "name": "04.json",
+          "path": "dados/liga-futve-2026-202f2a4c2b2df6f9/originais/79015208-5a87-40d2-8e59-fe78dc245e26/04-04.json"
+        },
+        {
+          "name": "05.json",
+          "path": "dados/liga-futve-2026-202f2a4c2b2df6f9/originais/79015208-5a87-40d2-8e59-fe78dc245e26/05-05.json"
+        },
+        {
+          "name": "06.json",
+          "path": "dados/liga-futve-2026-202f2a4c2b2df6f9/originais/79015208-5a87-40d2-8e59-fe78dc245e26/06-06.json"
+        }
+      ]
     }
   ]
 }
