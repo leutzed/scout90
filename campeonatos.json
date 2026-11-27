@@ -208,6 +208,126 @@
           "path": "dados/liga-portugal-2-2025-26-50ac433cf9304cfc/originais/29c82577-75c5-4471-8945-5b5c78a90cf2/06-06.json"
         }
       ]
+    },
+    {
+      "competition": "LaLiga",
+      "season": "2025/26",
+      "path": "dados/laliga-2025-26-04bdcd21a9cf3d04/consolidado.json",
+      "originals": [
+        {
+          "name": "01.json",
+          "path": "dados/laliga-2025-26-04bdcd21a9cf3d04/originais/96b04066-32ac-4806-94f5-ef8c8e347366/01-01.json"
+        },
+        {
+          "name": "02.json",
+          "path": "dados/laliga-2025-26-04bdcd21a9cf3d04/originais/96b04066-32ac-4806-94f5-ef8c8e347366/02-02.json"
+        },
+        {
+          "name": "03.json",
+          "path": "dados/laliga-2025-26-04bdcd21a9cf3d04/originais/96b04066-32ac-4806-94f5-ef8c8e347366/03-03.json"
+        },
+        {
+          "name": "04.json",
+          "path": "dados/laliga-2025-26-04bdcd21a9cf3d04/originais/96b04066-32ac-4806-94f5-ef8c8e347366/04-04.json"
+        },
+        {
+          "name": "05.json",
+          "path": "dados/laliga-2025-26-04bdcd21a9cf3d04/originais/96b04066-32ac-4806-94f5-ef8c8e347366/05-05.json"
+        },
+        {
+          "name": "06.json",
+          "path": "dados/laliga-2025-26-04bdcd21a9cf3d04/originais/96b04066-32ac-4806-94f5-ef8c8e347366/06-06.json"
+        }
+      ]
+    },
+    {
+      "competition": "Bundesliga",
+      "season": "2025/26",
+      "path": "dados/bundesliga-2025-26-937ddd3a045cc894/consolidado.json",
+      "originals": [
+        {
+          "name": "01.json",
+          "path": "dados/bundesliga-2025-26-937ddd3a045cc894/originais/a9b90c6b-c2e3-4252-8d15-ed9604904bf7/01-01.json"
+        },
+        {
+          "name": "02.json",
+          "path": "dados/bundesliga-2025-26-937ddd3a045cc894/originais/a9b90c6b-c2e3-4252-8d15-ed9604904bf7/02-02.json"
+        },
+        {
+          "name": "03.json",
+          "path": "dados/bundesliga-2025-26-937ddd3a045cc894/originais/a9b90c6b-c2e3-4252-8d15-ed9604904bf7/03-03.json"
+        },
+        {
+          "name": "04.json",
+          "path": "dados/bundesliga-2025-26-937ddd3a045cc894/originais/a9b90c6b-c2e3-4252-8d15-ed9604904bf7/04-04.json"
+        },
+        {
+          "name": "05.json",
+          "path": "dados/bundesliga-2025-26-937ddd3a045cc894/originais/a9b90c6b-c2e3-4252-8d15-ed9604904bf7/05-05.json"
+        }
+      ]
+    },
+    {
+      "competition": "Serie A (Itália)",
+      "season": "2025/26",
+      "path": "dados/serie-a-italia-2025-26-ff8488ba783fcadc/consolidado.json",
+      "originals": [
+        {
+          "name": "01.json",
+          "path": "dados/serie-a-italia-2025-26-ff8488ba783fcadc/originais/dfa831ab-5ca9-4059-8a68-afd3414a77c1/01-01.json"
+        },
+        {
+          "name": "02.json",
+          "path": "dados/serie-a-italia-2025-26-ff8488ba783fcadc/originais/dfa831ab-5ca9-4059-8a68-afd3414a77c1/02-02.json"
+        },
+        {
+          "name": "03.json",
+          "path": "dados/serie-a-italia-2025-26-ff8488ba783fcadc/originais/dfa831ab-5ca9-4059-8a68-afd3414a77c1/03-03.json"
+        },
+        {
+          "name": "04.json",
+          "path": "dados/serie-a-italia-2025-26-ff8488ba783fcadc/originais/dfa831ab-5ca9-4059-8a68-afd3414a77c1/04-04.json"
+        },
+        {
+          "name": "05.json",
+          "path": "dados/serie-a-italia-2025-26-ff8488ba783fcadc/originais/dfa831ab-5ca9-4059-8a68-afd3414a77c1/05-05.json"
+        },
+        {
+          "name": "06.json",
+          "path": "dados/serie-a-italia-2025-26-ff8488ba783fcadc/originais/dfa831ab-5ca9-4059-8a68-afd3414a77c1/06-06.json"
+        }
+      ]
+    },
+    {
+      "competition": "Ligue 1",
+      "season": "2025/26",
+      "path": "dados/ligue-1-2025-26-ae941f95f3d43a59/consolidado.json",
+      "originals": [
+        {
+          "name": "01.json",
+          "path": "dados/ligue-1-2025-26-ae941f95f3d43a59/originais/207b55c5-9567-4ad5-85d0-2e54d7023c37/01-01.json"
+        },
+        {
+          "name": "02.json",
+          "path": "dados/ligue-1-2025-26-ae941f95f3d43a59/originais/207b55c5-9567-4ad5-85d0-2e54d7023c37/02-02.json"
+        },
+        {
+          "name": "03.json",
+          "path": "dados/ligue-1-2025-26-ae941f95f3d43a59/originais/207b55c5-9567-4ad5-85d0-2e54d7023c37/03-03.json"
+        },
+        {
+          "name": "04.json",
+          "path": "dados/ligue-1-2025-26-ae941f95f3d43a59/originais/207b55c5-9567-4ad5-85d0-2e54d7023c37/04-04.json"
+        },
+        {
+          "name": "05.json",
+          "path": "dados/ligue-1-2025-26-ae941f95f3d43a59/originais/207b55c5-9567-4ad5-85d0-2e54d7023c37/05-05.json"
+        },
+        {
+          "name": "06.json",
+          "path": "dados/ligue-1-2025-26-ae941f95f3d43a59/originais/207b55c5-9567-4ad5-85d0-2e54d7023c37/06-06.json"
+        }
+      ]
     }
   ]
 }
