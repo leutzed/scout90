@@ -17,3 +17,9 @@ Para uso local, importe sem marcar a opção do GitHub. Use **Baixar JSON** para
 O painel lê os dados em `results[].player.profile` de uma base de campeonato. Para complementar bases já carregadas, use **Importar perfis** com o `perfis.json` do agente ou com os JSONs individuais. O cruzamento usa o ID do jogador. Perfis importados por esse botão ficam no navegador.
 
 Os filtros aceitam nacionalidade, intervalo de nascimento, pé preferido e altura em centímetros. As bandeiras são do [Flagpedia](https://flagpedia.net/download/icons).
+
+## Métricas derivadas e estrutura
+
+O ranking calcula participações em gols, minutos por ação, diferença entre gols e xG e métricas de goleiros e custos conforme a cobertura de cada base. O xG sem pênalti desconta 0,79 por cobrança e tem piso zero. As contagens estimadas de cruzamentos, dribles, bolas longas e duelos ficam disponíveis quando o percentual arredondado permite identificar um único total. Campos sem dados ou razões sem denominador aparecem como —.
+
+O HTML carrega o estilo em `scout90.css` e arquivos JavaScript por responsabilidade: estado, perfis, métricas, gráficos, interface, biblioteca de competições e publicação no GitHub. As bandeiras estão em um arquivo de dados separado.
