@@ -619,6 +619,33 @@
           "path": "dados/liga-futve-2026-202f2a4c2b2df6f9/originais/79015208-5a87-40d2-8e59-fe78dc245e26/06-06.json"
         }
       ]
+    },
+    {
+      "competition": "Liga MX",
+      "season": "Apertura 2026",
+      "path": "dados/liga-mx-apertura-2026-1d303c743202ff7e/consolidado.json",
+      "originals": [
+        {
+          "name": "01.json",
+          "path": "dados/liga-mx-apertura-2026-1d303c743202ff7e/originais/a36c1473-bc91-4b57-bc4e-c35af41bc524/01-01.json"
+        },
+        {
+          "name": "02.json",
+          "path": "dados/liga-mx-apertura-2026-1d303c743202ff7e/originais/a36c1473-bc91-4b57-bc4e-c35af41bc524/02-02.json"
+        },
+        {
+          "name": "03.json",
+          "path": "dados/liga-mx-apertura-2026-1d303c743202ff7e/originais/a36c1473-bc91-4b57-bc4e-c35af41bc524/03-03.json"
+        },
+        {
+          "name": "04.json",
+          "path": "dados/liga-mx-apertura-2026-1d303c743202ff7e/originais/a36c1473-bc91-4b57-bc4e-c35af41bc524/04-04.json"
+        },
+        {
+          "name": "05.json",
+          "path": "dados/liga-mx-apertura-2026-1d303c743202ff7e/originais/a36c1473-bc91-4b57-bc4e-c35af41bc524/05-05.json"
+        }
+      ]
     }
   ]
 }
