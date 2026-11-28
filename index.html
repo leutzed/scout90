@@ -12,6 +12,7 @@
 <div class="brand"><i aria-hidden="true">90</i> <div>Scout<span>90</span></div></div>
 <nav aria-label="Navegação">
 <button type="button" data-view="ranking" aria-current="page"><span class="nav-icon" aria-hidden="true">▤</span> Jogadores</button>
+<button type="button" data-view="explore"><span class="nav-icon" aria-hidden="true">⊹</span> Explorar</button>
 <button type="button" data-view="compare"><span class="nav-icon" aria-hidden="true">◫</span> Comparador <b id="compare-counter"></b></button>
 <button type="button" data-view="similar"><span class="nav-icon" aria-hidden="true">≈</span> Semelhantes</button>
 <button type="button" data-view="shortlist"><span class="nav-icon" aria-hidden="true">☆</span> Observação <b id="shortlist-counter"></b></button>
@@ -61,11 +62,48 @@
 <div class="toolbar"><strong id="result-count" aria-live="polite"></strong><div class="actions"><button type="button" class="btn" id="clear-filters">Limpar filtros</button><button type="button" class="btn" id="open-hidden">Ocultos (0)</button><button type="button" class="btn" id="open-columns">Colunas</button><button type="button" class="btn" id="open-charts" hidden>Gráficos</button><button type="button" class="btn" id="export-ranking">Exportar CSV</button></div></div>
 <div class="toolbar" id="batch-toolbar">
 <div class="bulk-controls"><span id="batch-count" class="bulk-count" aria-live="polite">0 selecionados</span><button type="button" class="btn" id="hide-picked" disabled>Ocultar selecionados</button><button type="button" class="btn" id="clear-picked" hidden>Desmarcar</button></div>
+<button type="button" class="btn" id="explore-picked" hidden>Ver mapa de calor</button>
 <span class="bulk-tip">Shift + clique para marcar um intervalo.</span>
 </div>
 <div class="toolbar"><span class="scale" title="A escala vai do percentil 5 ao 95 quando há variação. As cores indicam a grandeza do valor em cada coluna."><span>Baixo</span><i aria-hidden="true"></i><span>Alto · escala de cada coluna no grupo filtrado</span></span><label class="heat-control"><input id="heat-toggle" type="checkbox" checked> Colorir células</label></div>
 <div class="table-scroll" tabindex="0" role="region" aria-label="Ranking completo, com rolagem horizontal e vertical"><table id="ranking-table" aria-label="Ranking de jogadores"></table></div>
 </div>
+</section>
+<section class="workspace" id="explore" hidden>
+<div class="section-head"><h2>Explorar jogadores</h2></div>
+<div class="panel section-card">
+<div class="explore-controls">
+<label>Perfil de análise<select id="explore-preset"></select></label>
+<label>Posição ou função<select id="explore-position"></select></label>
+<label>Minutos mínimos<input id="explore-minutes" type="number" min="0" step="1" value="900"></label>
+</div>
+<p class="hint" id="explore-cohort" role="status"></p>
+</div>
+<article class="panel section-card">
+<h3>Dispersão por quadrantes</h3>
+<div class="explore-controls">
+<label>Eixo horizontal<select id="explore-x"></select></label>
+<label>Eixo vertical<select id="explore-y"></select></label>
+<label id="explore-currency-label" hidden>Moeda<select id="explore-currency"></select></label>
+</div>
+<p class="chart-note" id="explore-scatter-note"></p>
+<div class="explore-plot" id="explore-scatter"></div>
+<div class="explore-controls"><label>Destacar jogador<select id="explore-player"></select></label></div>
+<div class="explore-player-summary" id="explore-player-summary" aria-live="polite"></div>
+</article>
+<article class="panel section-card">
+<h3>Distribuição na competição</h3>
+<div class="explore-controls"><label>Métrica<select id="explore-distribution-metric"></select></label></div>
+<p id="explore-distribution-note" class="chart-note"></p>
+<div class="explore-plot" id="explore-distribution"></div>
+<ul class="explore-distribution-players" id="explore-distribution-players"></ul>
+</article>
+<article class="panel section-card">
+<h3 id="explore-heatmap-heading" tabindex="-1">Mapa de calor dos candidatos</h3>
+<p class="hint" id="explore-heatmap-note"></p>
+<div class="table-scroll explore-matrix" id="explore-heatmap-scroll" tabindex="0" role="region" aria-labelledby="explore-heatmap-heading" hidden>
+<table id="explore-heatmap" aria-labelledby="explore-heatmap-heading"></table></div>
+</article>
 </section>
 <section class="workspace" id="compare" hidden>
 <div class="section-head"><h2 tabindex="-1">Comparador</h2><button type="button" class="btn" id="clear-compare">Limpar seleção</button></div>
@@ -98,6 +136,11 @@
 <p id="similar-message" class="hint" role="status"></p>
 <ol id="similar-chart" aria-label="Gráfico de similaridade dos jogadores"></ol>
 <p class="hint" id="similar-metrics"></p>
+<div id="similar-breakdown" class="similar-breakdown" hidden>
+<h3>Comparação por métrica</h3>
+<label>Candidato<select id="similar-candidate"></select></label>
+<div id="similar-dumbbell"></div>
+</div>
 <details class="similar-method"><summary>Como a semelhança é calculada</summary>
 <p>O painel compara os percentis do jogador de referência com os dos candidatos da competição e temporada ativas. Usa taxas por 90 minutos para contagens, exige pelo menos três métricas e 75% de cobertura. Métricas ausentes reduzem a pontuação. A nota de 0 a 100 mede a proximidade estatística no perfil escolhido.</p>
 </details>
@@ -178,6 +221,7 @@
 <script defer src="./scout90-charts.js"></script>
 <script defer src="./scout90-ui.js"></script>
 <script defer src="./scout90-similarity.js"></script>
+<script defer src="./scout90-explore.js"></script>
 <script defer src="./scout90-library.js"></script>
 <script defer src="./scout90-github.js"></script>
 <script defer src="./scout90-start.js"></script>

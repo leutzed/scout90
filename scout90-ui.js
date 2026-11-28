@@ -152,6 +152,7 @@ function renderPicked() {
   $("batch-count").textContent = number.format(total) + (total === 1 ? " selecionado" : " selecionados") +
     (outside ? " · " + number.format(outside) + " fora do filtro atual" : "");
   $("hide-picked").disabled = !total;
+  $("explore-picked").hidden = !total;
   $("clear-picked").hidden = !total;
 }
 
@@ -254,6 +255,7 @@ function render() {
   if (view === "compare") renderCompare();
   if (view === "shortlist") renderShortlist();
   if (view === "similar") renderSimilarity();
+  if (view === "explore") renderExplore();
 }
 
 function setView(next) {
@@ -465,6 +467,10 @@ $("clear-picked").addEventListener("click",() => {
 });
 $("heat-toggle").addEventListener("change",renderRanking);
 $("open-charts").addEventListener("click",() => setView("compare"));
+$("explore-picked").addEventListener("click",() => {
+  setView("explore");
+  $("explore-heatmap-heading").focus();
+});
 $("open-hidden").addEventListener("click",() => {
   $("hidden-dialog").showModal();
   renderHidden();

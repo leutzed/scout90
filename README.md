@@ -27,3 +27,11 @@ O HTML carrega o estilo em `scout90.css` e arquivos JavaScript por responsabilid
 ## Jogadores semelhantes
 
 Abra **Semelhantes** ou clique em **Encontrar semelhantes** na ficha de um jogador. O gráfico lista até dez candidatos da competição e temporada ativas. A pontuação usa a distância entre percentis no perfil selecionado e reduz a nota se faltarem métricas do candidato. Use **Comparar** para abrir os dois jogadores lado a lado.
+
+Em **Comparação por métrica**, selecione um dos candidatos para ver os valores e percentis que entraram na nota.
+
+## Explorar jogadores
+
+A aba **Explorar** combina posição e minutos mínimos com dispersão por quadrantes e distribuição por métrica. As medianas da dispersão são calculadas com os registros que têm valores para os dois eixos. O histograma mostra a mediana e o intervalo P25–P75. Use o seletor ou os pontos da dispersão para destacar jogadores e adicioná-los ao Comparador.
+
+Marque as caixas de seleção no ranking e clique em **Ver mapa de calor** para comparar os candidatos. Os percentis usam o recorte da aba Explorar. Os perfis de idade e valor de mercado dependem das fichas disponíveis. A idade usa 31 de dezembro em temporadas de ano único ou 30 de junho do último ano em temporadas divididas. O valor de mercado estimado mantém a moeda original.

@@ -14,6 +14,7 @@ const manualPositionGroups = {
 };
 const positionLabels = {G:"Goleiro",D:"Defesa",M:"Meio-campo",F:"Ataque"};
 let similarityReference = "";
+let similarityComparison;
 
 function similarityPosition(row) {
   const manual = manualPositionGroups[scout(row).position];
@@ -98,6 +99,7 @@ function renderSimilarity() {
   $("similar-reference").hidden = !reference;
   $("similar-metrics").textContent = "";
   $("similar-chart").innerHTML = "";
+  $("similar-breakdown").hidden = true;
   const samePosition = $("similar-position");
   const group = reference && similarityPosition(reference);
   samePosition.disabled = !group;
@@ -130,6 +132,38 @@ function renderSimilarity() {
     '%"></span></div><span class="sub">' + shared + '/' + axes.length + ' métricas</span></div><strong class="similar-value">' +
     decimal.format(score) + '<small>/100</small></strong><button type="button" class="btn" data-similar-compare="' + playerKey(row) +
     '" aria-label="Comparar com ' + h(row.player.name) + '">Comparar</button></li>').join("");
+  const candidates = results.slice(0,shown).map(result=>result.row);
+  const select = $("similar-candidate");
+  const previous = similarityComparison?.reference === reference ? select.value : "";
+  similarityComparison = {reference,axes,candidates};
+  select.innerHTML = candidates.map(row=>'<option value="' + playerKey(row) + '">' +
+    h(row.player.name + " · " + row.team.name) + "</option>").join("");
+  if (candidates.some(row=>playerKey(row) === previous)) select.value = previous;
+  $("similar-breakdown").hidden = false;
+  renderSimilarityBreakdown();
+}
+
+function renderSimilarityBreakdown() {
+  const {reference,axes,candidates} = similarityComparison;
+  const candidate = candidates.find(row=>playerKey(row) === $("similar-candidate").value);
+  if (!candidate) return;
+  const markers = (row, style) => '<span class="similar-key ' + style + '">' + h(row.player.name) + '</span>';
+  const metrics = axes.map(({key,values,target})=>{
+    const a = Math.round(target * 100);
+    const value = measurement(candidate,key,"rate");
+    const b = Number.isFinite(value) ? Math.round(percentile(values,value) * 100) : null;
+    const line = b === null ? "" : '<i class="similar-gap" style="left:' + Math.min(a,b) +
+      '%;width:' + Math.abs(a-b) + '%"></i><i class="similar-point candidate" style="left:' + b + '%"></i>';
+    return '<li><div><strong>' + h(metricLabel(key,"rate")) + '</strong><small>n=' + values.length +
+      '</small></div><div class="similar-axis" aria-hidden="true">' + line +
+      '<i class="similar-point reference" style="left:' + a + '%"></i></div><div><span>' +
+      h(formatted(measurement(reference,key,"rate"),key,"rate")) + ' · P' + a + '</span><span>' +
+      (b === null ? "Sem dado" : h(formatted(value,key,"rate")) + ' · P' + b) + '</span></div></li>';
+  }).join("");
+  $("similar-dumbbell").innerHTML = '<p class="similar-keys">' + markers(reference,"reference") +
+    markers(candidate,"candidate") + '</p><div class="similar-ticks" aria-hidden="true">' +
+    '<span>P0</span><span>P25</span><span>P50</span><span>P75</span><span>P100</span></div>' +
+    '<ul class="similar-axes" aria-label="Valores e percentis na ordem da legenda">' + metrics + '</ul>';
 }
 
 function startSimilarity(row) {
@@ -158,6 +192,7 @@ $("similar-player").addEventListener("change",event=>{
 });
 $("similar-search").addEventListener("input",renderSimilarity);
 for (const id of ["similar-profile","similar-minutes","similar-position"]) $(id).addEventListener("input",renderSimilarity);
+$("similar-candidate").addEventListener("change",renderSimilarityBreakdown);
 
 $("similar-chart").addEventListener("click",event=>{
   const candidate = event.target.closest("button[data-similar-compare]")?.dataset.similarCompare;
