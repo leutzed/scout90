@@ -23,3 +23,7 @@ Os filtros aceitam nacionalidade, intervalo de nascimento, pé preferido e altur
 O ranking calcula participações em gols, minutos por ação, diferença entre gols e xG e métricas de goleiros e custos conforme a cobertura de cada base. O xG sem pênalti desconta 0,79 por cobrança e tem piso zero. As contagens estimadas de cruzamentos, dribles, bolas longas e duelos ficam disponíveis quando o percentual arredondado permite identificar um único total. Campos sem dados ou razões sem denominador aparecem como —.
 
 O HTML carrega o estilo em `scout90.css` e arquivos JavaScript por responsabilidade: estado, perfis, métricas, gráficos, interface, biblioteca de competições e publicação no GitHub. As bandeiras estão em um arquivo de dados separado.
+
+## Jogadores semelhantes
+
+Abra **Semelhantes** ou clique em **Encontrar semelhantes** na ficha de um jogador. O gráfico lista até dez candidatos da competição e temporada ativas. A pontuação usa a distância entre percentis no perfil selecionado e reduz a nota se faltarem métricas do candidato. Use **Comparar** para abrir os dois jogadores lado a lado.

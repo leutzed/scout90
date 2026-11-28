@@ -13,6 +13,7 @@
 <nav aria-label="Navegação">
 <button type="button" data-view="ranking" aria-current="page"><span class="nav-icon" aria-hidden="true">▤</span> Jogadores</button>
 <button type="button" data-view="compare"><span class="nav-icon" aria-hidden="true">◫</span> Comparador <b id="compare-counter"></b></button>
+<button type="button" data-view="similar"><span class="nav-icon" aria-hidden="true">≈</span> Semelhantes</button>
 <button type="button" data-view="shortlist"><span class="nav-icon" aria-hidden="true">☆</span> Observação <b id="shortlist-counter"></b></button>
 </nav>
 <footer>Painel local de scouting</footer>
@@ -67,7 +68,7 @@
 </div>
 </section>
 <section class="workspace" id="compare" hidden>
-<div class="section-head"><h2>Comparador</h2><button type="button" class="btn" id="clear-compare">Limpar seleção</button></div>
+<div class="section-head"><h2 tabindex="-1">Comparador</h2><button type="button" class="btn" id="clear-compare">Limpar seleção</button></div>
 <p class="muted">Adicione até quatro jogadores pelo ranking ou pelos seletores abaixo.</p>
 <div class="panel section-card"><div class="compare-select" id="compare-select"></div><p class="hint" id="compare-note"></p></div>
 <div id="charts" hidden>
@@ -79,6 +80,28 @@
 <article class="panel"><h3>Dispersão</h3><p class="chart-note">Pontos cinza representam o grupo filtrado. As cores destacam os jogadores selecionados.</p><div class="scatter-controls"><label>Eixo X<select id="scatter-x"></select></label><label>Eixo Y<select id="scatter-y"></select></label></div><canvas id="scatter" role="img" aria-label="Dispersão de duas métricas dos jogadores selecionados e do grupo de referência"></canvas></article>
 </div></div>
 <div class="panel table-card" id="compare-card" hidden><div class="table-scroll"><table id="compare-table" aria-label="Comparação de jogadores"></table></div></div>
+</section>
+<section class="workspace" id="similar" hidden>
+<div class="section-head"><h2 id="similar-title" tabindex="-1">Jogadores semelhantes</h2></div>
+<div class="panel section-card">
+<div class="similar-filters">
+<label>Buscar referência<input id="similar-search" type="search" placeholder="Nome, clube ou ID" autocomplete="off"></label>
+<label>Jogador de referência<select id="similar-player"><option value="">Escolha um jogador</option></select></label>
+<label>Perfil de comparação<select id="similar-profile"></select></label>
+<label>Minutos mínimos dos candidatos<input id="similar-minutes" type="number" min="0" step="1" value="900"></label>
+</div>
+<label class="similar-position"><input type="checkbox" id="similar-position" disabled><span id="similar-position-label">Mesmo grupo de posição</span></label>
+<div id="similar-reference" hidden></div>
+</div>
+<div class="panel section-card">
+<h3>Mais próximos na base atual</h3>
+<p id="similar-message" class="hint" role="status"></p>
+<ol id="similar-chart" aria-label="Gráfico de similaridade dos jogadores"></ol>
+<p class="hint" id="similar-metrics"></p>
+<details class="similar-method"><summary>Como a semelhança é calculada</summary>
+<p>O painel compara os percentis do jogador de referência com os dos candidatos da competição e temporada ativas. Usa taxas por 90 minutos para contagens, exige pelo menos três métricas e 75% de cobertura. Métricas ausentes reduzem a pontuação. A nota de 0 a 100 mede a proximidade estatística no perfil escolhido.</p>
+</details>
+</div>
 </section>
 <section class="workspace" id="shortlist" hidden>
 <div class="section-head"><h2>Lista de observação</h2><button type="button" class="btn" id="export-shortlist">Exportar lista CSV</button></div>
@@ -145,7 +168,7 @@
 <label class="full">Custo salarial no recorte (R$)<input id="detail-period-cost" type="number" min="0" step=".01" placeholder="Opcional. Informe o gasto no mesmo período dos jogos."></label>
 <label class="full">Anotações<textarea id="detail-note" maxlength="4000" placeholder="O que observar neste jogador?"></textarea></label>
 </div>
-<div class="actions"><button type="submit" class="btn primary">Salvar ficha</button><button type="button" id="detail-save" class="btn"></button><button type="button" id="detail-compare" class="btn"></button></div>
+<div class="actions"><button type="submit" class="btn primary">Salvar ficha</button><button type="button" id="detail-save" class="btn"></button><button type="button" id="detail-similar" class="btn">Encontrar semelhantes</button><button type="button" id="detail-compare" class="btn"></button></div>
 </form>
 </dialog>
 <script defer src="./scout90-flags.js"></script>
@@ -154,11 +177,13 @@
 <script defer src="./scout90-metrics.js"></script>
 <script defer src="./scout90-charts.js"></script>
 <script defer src="./scout90-ui.js"></script>
+<script defer src="./scout90-similarity.js"></script>
 <script defer src="./scout90-library.js"></script>
 <script defer src="./scout90-github.js"></script>
 <script defer src="./scout90-start.js"></script>
 </body>
 </html>
+
 
 
 

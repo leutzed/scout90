@@ -148,6 +148,9 @@ function activateBase(id) {
   if (!record) return;
   if (activeBaseId !== id) {
     selection = [];
+    similarityReference = "";
+    $("similar-search").value = "";
+    $("similar-position").checked = false;
     for (const filter of ["search","team","position","budget",...personalInputs]) $(filter).value = "";
   }
   activeBaseId = id;

@@ -215,7 +215,9 @@ function renderCompare() {
   const columns = [...new Set(["min", "appearances", ...activeColumns(), "rating"])];
   const scales = heatScales(columns,"rate");
   const header = "<thead><tr><th scope='col'>Métrica</th>" + players.map(row => '<th scope="col"><div class="compare-player">' + portrait(row) + '<div>' + playerButton(row) +
-    '<span class="sub">' + h(row.team.name) + '</span></div></div></th>').join("") + "</tr></thead>";
+    '<span class="sub">' + h(row.team.name) + '</span><button type="button" class="btn compare-similar" data-similar-reference="' +
+    playerKey(row) + '" aria-label="Encontrar semelhantes a ' + h(row.player.name) +
+    '">Semelhantes</button></div></div></th>').join("") + "</tr></thead>";
   const content = columns.map(key => "<tr><th scope='row'>" + h(metricLabel(key, "rate")) + "</th>" + players.map(row => {
     const both = fields[key][1] === "rate" && raw(row, key) !== null ? " · " + h(cell(row, key, "count")) + " total" : "";
     const pct = key === "min" ? null : compareMetric(row, key);
@@ -251,6 +253,7 @@ function render() {
   if (view === "ranking" || view === "compare") renderRanking();
   if (view === "compare") renderCompare();
   if (view === "shortlist") renderShortlist();
+  if (view === "similar") renderSimilarity();
 }
 
 function setView(next) {
@@ -292,6 +295,7 @@ function detailActions() {
   if (!activePlayer) return;
   $("detail-save").textContent = info.shortlist[activePlayer.player.id] ? "Remover da observação" : "Adicionar à observação";
   $("detail-compare").disabled = hiddenPlayers.has(activePlayer.player.id);
+  $("detail-similar").disabled = hiddenPlayers.has(activePlayer.player.id);
   $("detail-compare").textContent = selection.includes(playerKey(activePlayer)) ? "Remover da comparação" : "Adicionar à comparação";
 }
 
@@ -380,6 +384,7 @@ document.addEventListener("click", event => {
     $("ranking-table").querySelector('[aria-sort] button').focus();
   }
   if (data.player) fillDetail(rows.get(data.player));
+  if (data.similarReference) startSimilarity(rows.get(data.similarReference));
   if (data.watch) {
     toggleWatch(rows.get(data.watch));
     document.querySelector('[data-watch="' + data.watch + '"]')?.focus();
@@ -493,6 +498,7 @@ $("shortlist-body").addEventListener("input", event => {
 });
 $("detail-save").addEventListener("click", () => toggleWatch(activePlayer));
 $("detail-compare").addEventListener("click", () => toggleCompare(playerKey(activePlayer)));
+$("detail-similar").addEventListener("click", () => startSimilarity(activePlayer));
 $("player-form").addEventListener("submit", event => {
   event.preventDefault();
   const parseInput = id => $(id).value === "" ? null : $(id).valueAsNumber;
