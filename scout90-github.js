@@ -11,6 +11,9 @@ function readCatalog(value) {
         typeof entry.path !== "string" || !/^(brasileirao-serie-a-2026\.json|dados\/[a-z0-9-]+\/consolidado\.json)$/.test(entry.path)) {
       throw new Error("O catálogo possui um campeonato inválido.");
     }
+    if (entry.search != null && entry.search !== searchIndexPath(entry.path)) {
+      throw new Error("O catálogo possui um caminho de busca inválido.");
+    }
     const id = baseId(entry.competition,entry.season);
     if (ids.has(id)) throw new Error("O catálogo possui campeonatos duplicados.");
     ids.add(id);
@@ -110,9 +113,11 @@ async function publishCompetition(record,originals,token,replace,progress) {
     attachments.push({path,name:file.name});
   }
   const path = folder + "/consolidado.json";
-  progress("Enviando o consolidado e atualizando o catálogo…");
+  progress("Enviando o consolidado e o índice de busca…");
   await upload(path,encoder.encode(JSON.stringify(portableBase(record))+"\n"));
-  const entry = {competition:record.competition,season:record.season,path,originals:attachments};
+  const search = searchIndexPath(path);
+  await upload(search,encoder.encode(JSON.stringify(buildSearchIndex(record))+"\n"));
+  const entry = {competition:record.competition,season:record.season,path,search,originals:attachments};
   const next = {...catalog,competitions:[...catalog.competitions.filter(item=>!sameCompetition(item)),entry]};
   await upload(catalogFile,encoder.encode(JSON.stringify(next,null,2)+"\n"));
   const newTree = await api("/git/trees",{method:"POST",body:{base_tree:head.tree.sha,tree}});

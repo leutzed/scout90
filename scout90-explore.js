@@ -10,8 +10,9 @@ const explorePresets = {
   age:{label:"Idade e produção", x:"age", y:"contributions", metrics:["contributions","goals","assists","dribbles","key"], requires:"age"},
   market:{label:"Valor de mercado e produção", x:"market", y:"contributions", metrics:["contributions","goals","assists","dribbles","key"], requires:"market"}
 };
-const exploreRoles = {GK:"Goleiro",CB:"Zagueiro",LB:"Lateral esquerdo",RB:"Lateral direito",DM:"Volante",
-  CM:"Meia central",AM:"Meia-atacante",LM:"Meia pela esquerda",RM:"Meia pela direita",LW:"Ponta esquerda",
+const exploreRoles = {GK:"Goleiro",DC:"Zagueiro",DL:"Lateral esquerdo",DR:"Lateral direito",
+  CB:"Zagueiro",LB:"Lateral esquerdo",RB:"Lateral direito",DM:"Volante",MC:"Meia central",ML:"Meia pela esquerda",
+  MR:"Meia pela direita",CM:"Meia central",AM:"Meia-atacante",LM:"Meia pela esquerda",RM:"Meia pela direita",LW:"Ponta esquerda",
   RW:"Ponta direita",ST:"Centroavante"};
 const exploreMetrics = [...new Set(Object.values(explorePresets).flatMap(preset=>preset.metrics))];
 const exploreCompact = new Intl.NumberFormat("pt-BR",{notation:"compact",maximumFractionDigits:2});
@@ -41,9 +42,7 @@ function exploreSeasonDate(season) {
 }
 
 function exploreAge(row,date) {
-  const birthday = athlete(row).birthDate;
-  if (!birthday || !date || birthday > date) return null;
-  return Number(date.slice(0,4))-Number(birthday.slice(0,4))-(birthday.slice(5) > date.slice(5) ? 1 : 0);
+  return ageAtDate(athlete(row).birthDate,date);
 }
 
 function exploreLabel(key) {

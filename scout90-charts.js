@@ -74,12 +74,12 @@ function drawRadar(players) {
   });
 }
 
-function drawBars(players) {
-  const surface = chartSurface("bars");
+function drawBars(players,{canvas = "bars",metric = "bar-metric",mode = unit} = {}) {
+  const surface = chartSurface(canvas);
   if (!surface) return;
   const {ctx,width,height} = surface;
-  const key = $("bar-metric").value;
-  const values = players.map(row => measurement(row,key));
+  const key = $(metric).value;
+  const values = players.map(row => measurement(row,key,mode));
   const available = values.filter(Number.isFinite);
   if (!available.length) {
     plotMessage(ctx,width,height,"Sem dados para esta métrica na seleção.");
@@ -104,7 +104,7 @@ function drawBars(players) {
       ctx.fillRect(Math.min(endpoint,origin),y-8,Math.max(1,Math.abs(endpoint-origin)),16);
     }
     ctx.textAlign = "left";
-    ctx.fillText(formatted(values[index],key),left+room+8,y,76);
+    ctx.fillText(formatted(values[index],key,mode),left+room+8,y,76);
   });
 }
 

@@ -35,3 +35,9 @@ Em **Comparação por métrica**, selecione um dos candidatos para ver os valore
 A aba **Explorar** combina posição e minutos mínimos com dispersão por quadrantes e distribuição por métrica. As medianas da dispersão são calculadas com os registros que têm valores para os dois eixos. O histograma mostra a mediana e o intervalo P25–P75. Use o seletor ou os pontos da dispersão para destacar jogadores e adicioná-los ao Comparador.
 
 Marque as caixas de seleção no ranking e clique em **Ver mapa de calor** para comparar os candidatos. Os percentis usam o recorte da aba Explorar. Os perfis de idade e valor de mercado dependem das fichas disponíveis. A idade usa 31 de dezembro em temporadas de ano único ou 30 de junho do último ano em temporadas divididas. O valor de mercado estimado mantém a moeda original.
+
+## Todas as ligas
+
+A busca global usa um índice compacto por competição e temporada. O padrão é a temporada mais recente disponível de cada liga. A tabela preserva os registros por clube e indica a competição e a temporada. Abra um jogador para navegar pelos recortes do mesmo ID ou marque de dois a quatro registros para comparar as estatísticas completas.
+
+A importação pela interface publica índice, consolidado, partes originais e catálogo no mesmo commit. Se você alterar estatísticas ou fichas diretamente pelo Git, rode `node scripts/update-search-index.cjs` antes de publicar e inclua os índices alterados e `campeonatos.json` no commit. O navegador consulta o consolidado individual quando uma entrada ainda não tem índice.

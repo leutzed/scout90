@@ -21,6 +21,11 @@ function profileDate(value, timestamp) {
   return Number.isNaN(parsed.getTime()) || parsed.toISOString().slice(0,10) !== date ? null : date;
 }
 
+function ageAtDate(birthday,date) {
+  if (!birthday || !date || birthday > date) return null;
+  return Number(date.slice(0,4))-Number(birthday.slice(0,4))-(birthday.slice(5) > date.slice(5) ? 1 : 0);
+}
+
 function profileCountry(value) {
   const code = typeof value === "string" ? value : (value?.alpha2 || value?.code || value?.alpha3);
   const key = typeof code === "string" ? code.toLowerCase().trim() : "";
@@ -140,19 +145,16 @@ function initials(name) {
   return name.trim().split(/\s+/).slice(0,2).map(word=>Array.from(word)[0]).join("").toUpperCase();
 }
 
-function portrait(row) {
-  const photo = athlete(row).photoUrl;
+function portrait(row,data = athlete(row)) {
+  const photo = data.photoUrl;
   return '<span class="portrait"><span aria-hidden="true">' + h(initials(row.player.name)) + '</span>' +
     (photo ? '<img class="player-photo" src="' + h(photo) + '" alt="" referrerpolicy="no-referrer">' : "") + '</span>';
 }
 
-function profileDetail(row) {
-  const data = athlete(row);
+function playerBiography(data) {
   const valuation = data.marketValue;
   const estimated = valuation ? new Intl.NumberFormat("pt-BR",{style:"currency",currency:valuation.currency}).format(valuation.value) : "—";
-  $("detail-portrait").innerHTML = portrait(row);
-  $("detail-flag").innerHTML = flag(data.nationality);
-  $("detail-bio").innerHTML = [
+  return [
     ["Nacionalidade",countryName(data.nationality)],
     ["Nascimento",formatted(data.birthDate ?? null,"birthDate")],
     ["Pé preferido",footNames[data.preferredFoot] || "—"],
@@ -162,6 +164,13 @@ function profileDetail(row) {
     ["Contrato informado no perfil",formatted(data.contractUntil ?? null,"birthDate")],
     ["Valor estimado pela fonte",estimated]
   ].map(([label,value])=>"<div><dt>" + h(label) + "</dt><dd>" + h(value) + "</dd></div>").join("");
+}
+
+function profileDetail(row) {
+  const data = athlete(row);
+  $("detail-portrait").innerHTML = portrait(row,data);
+  $("detail-flag").innerHTML = flag(data.nationality);
+  $("detail-bio").innerHTML = playerBiography(data);
 }
 
 document.addEventListener("error",event=>{

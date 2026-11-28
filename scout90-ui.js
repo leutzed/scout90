@@ -256,6 +256,7 @@ function render() {
   if (view === "shortlist") renderShortlist();
   if (view === "similar") renderSimilarity();
   if (view === "explore") renderExplore();
+  if (view === "global-search") renderGlobalSearch();
 }
 
 function setView(next) {

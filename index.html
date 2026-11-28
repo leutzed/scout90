@@ -12,6 +12,7 @@
 <div class="brand"><i aria-hidden="true">90</i> <div>Scout<span>90</span></div></div>
 <nav aria-label="Navegação">
 <button type="button" data-view="ranking" aria-current="page"><span class="nav-icon" aria-hidden="true">▤</span> Jogadores</button>
+<button type="button" data-view="global-search"><span class="nav-icon" aria-hidden="true">⊞</span> Todas as ligas</button>
 <button type="button" data-view="explore"><span class="nav-icon" aria-hidden="true">⊹</span> Explorar</button>
 <button type="button" data-view="compare"><span class="nav-icon" aria-hidden="true">◫</span> Comparador <b id="compare-counter"></b></button>
 <button type="button" data-view="similar"><span class="nav-icon" aria-hidden="true">≈</span> Semelhantes</button>
@@ -67,6 +68,54 @@
 </div>
 <div class="toolbar"><span class="scale" title="A escala vai do percentil 5 ao 95 quando há variação. As cores indicam a grandeza do valor em cada coluna."><span>Baixo</span><i aria-hidden="true"></i><span>Alto · escala de cada coluna no grupo filtrado</span></span><label class="heat-control"><input id="heat-toggle" type="checkbox" checked> Colorir células</label></div>
 <div class="table-scroll" tabindex="0" role="region" aria-label="Ranking completo, com rolagem horizontal e vertical"><table id="ranking-table" aria-label="Ranking de jogadores"></table></div>
+</div>
+</section>
+<section class="workspace" id="global-search" hidden>
+<div class="section-head"><h2>Todas as ligas</h2></div>
+<div class="panel section-card">
+<div class="global-filters">
+<label>Buscar jogador<input id="global-query" type="search" placeholder="Nome ou ID" autocomplete="off"></label>
+<label>Competição<select id="global-competition"></select></label>
+<label>Temporada<select id="global-season"></select></label>
+<label>Posição ou função<select id="global-position"></select></label>
+<label>Minutos mínimos<input id="global-minutes" type="number" min="0" step="1" value="900"></label>
+</div>
+<details class="global-extra">
+<summary>Mais filtros</summary>
+<div class="global-filters">
+<label>Clube<select id="global-club"></select></label>
+<label>Nacionalidade<select id="global-country"></select></label>
+<label>Pé preferido<select id="global-foot"><option value="">Todos</option><option value="right">Direito</option><option value="left">Esquerdo</option><option value="both">Ambos</option><option value="unknown">Sem dado</option></select></label>
+<label>Idade mínima na temporada<input id="global-min-age" type="number" min="0" step="1"></label>
+<label>Idade máxima na temporada<input id="global-max-age" type="number" min="0" step="1"></label>
+<label>Nascimento a partir de<input id="global-birth-from" type="date"></label>
+<label>Nascimento até<input id="global-birth-to" type="date"></label>
+<label>Altura mínima (cm)<input id="global-min-height" type="number" min="0" step="1"></label>
+<label>Altura máxima (cm)<input id="global-max-height" type="number" min="0" step="1"></label>
+</div>
+</details>
+<div class="global-filters global-order">
+<label>Ordenar e filtrar por<select id="global-metric"></select></label>
+<label>Valor mínimo nessa métrica<input id="global-threshold" type="number" min="0" step="any" placeholder="Sem mínimo"></label>
+<label>Ordem<select id="global-order"><option value="desc">Maior primeiro</option><option value="asc">Menor primeiro</option></select></label>
+</div>
+</div>
+<div class="panel table-card">
+<div class="toolbar">
+<strong id="global-status" aria-live="polite"></strong>
+<div class="actions"><button type="button" class="btn" id="global-reset">Limpar filtros</button><button type="button" class="btn" id="global-retry" hidden>Tentar novamente</button></div>
+</div>
+<div class="toolbar global-actions">
+<span class="bulk-count" id="global-marked" aria-live="polite"></span>
+<div class="actions">
+<button type="button" class="btn" id="global-compare-button" disabled>Comparar selecionados</button>
+<button type="button" class="btn" id="global-hide" disabled>Ocultar selecionados</button>
+<button type="button" class="btn" id="global-clear" hidden>Desmarcar</button>
+<button type="button" class="btn" id="global-restore" hidden>Restaurar ocultos</button>
+</div>
+</div>
+<div class="table-scroll global-scroll" id="global-scroll" tabindex="0" role="region" aria-label="Resultados de todas as ligas, com rolagem contínua">
+<table id="global-table" aria-label="Jogadores de todas as ligas"></table></div>
 </div>
 </section>
 <section class="workspace" id="explore" hidden>
@@ -214,6 +263,21 @@
 <div class="actions"><button type="submit" class="btn primary">Salvar ficha</button><button type="button" id="detail-save" class="btn"></button><button type="button" id="detail-similar" class="btn">Encontrar semelhantes</button><button type="button" id="detail-compare" class="btn"></button></div>
 </form>
 </dialog>
+<dialog id="global-detail-dialog" class="global-dialog" aria-labelledby="global-detail-name">
+<div class="section-head"><h2 id="global-detail-name">Ficha do jogador</h2><button type="button" class="btn" data-close="global-detail-dialog">Fechar</button></div>
+<label>Competição, temporada e clube<select id="global-history"></select></label>
+<div id="global-detail-body" aria-live="polite"></div>
+<div class="actions"><button type="button" id="global-open-league" class="btn" disabled>Abrir ficha na liga</button></div>
+</dialog>
+<dialog id="global-compare-dialog" class="global-dialog" aria-labelledby="global-compare-title">
+<div class="section-head"><h2 id="global-compare-title">Comparação entre ligas</h2><button type="button" class="btn" data-close="global-compare-dialog">Fechar</button></div>
+<p class="hint" id="global-compare-status" role="status"></p>
+<div id="global-compare-charts" hidden>
+<label>Métrica do gráfico<select id="global-chart-metric"></select></label>
+<canvas id="global-bars" role="img" aria-label="Gráfico de barras da métrica selecionada"></canvas>
+<div class="table-scroll"><table id="global-compare-table" aria-label="Métricas dos jogadores comparados"></table></div>
+</div>
+</dialog>
 <script defer src="./scout90-flags.js"></script>
 <script defer src="./scout90-state.js"></script>
 <script defer src="./scout90-profiles.js"></script>
@@ -222,8 +286,10 @@
 <script defer src="./scout90-ui.js"></script>
 <script defer src="./scout90-similarity.js"></script>
 <script defer src="./scout90-explore.js"></script>
+<script defer src="./scout90-search-data.js"></script>
 <script defer src="./scout90-library.js"></script>
 <script defer src="./scout90-github.js"></script>
+<script defer src="./scout90-global-search.js"></script>
 <script defer src="./scout90-start.js"></script>
 </body>
 </html>

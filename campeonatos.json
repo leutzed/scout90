@@ -5,7 +5,8 @@
       "competition": "Brasileirão Série A",
       "season": "2026",
       "path": "brasileirao-serie-a-2026.json",
-      "originalArchive": "brasileirao-serie-a-2026-originais.zip"
+      "originalArchive": "brasileirao-serie-a-2026-originais.zip",
+      "search": "indice-brasileirao-serie-a-2026.json"
     },
     {
       "competition": "EFL Championship",
@@ -44,7 +45,8 @@
           "name": "08.json",
           "path": "dados/efl-championship-2025-26-f48e08a0c44e762a/originais/4c9807b7-c8ff-44f8-956f-a2f08eefbbc3/08-08.json"
         }
-      ]
+      ],
+      "search": "dados/efl-championship-2025-26-f48e08a0c44e762a/indice.json"
     },
     {
       "competition": "Premier League",
@@ -75,7 +77,8 @@
           "name": "06.json",
           "path": "dados/premier-league-2025-26-eea61c876a3eaf15/originais/460842df-c2d6-41f6-98a9-e100075ec0bd/06-06.json"
         }
-      ]
+      ],
+      "search": "dados/premier-league-2025-26-eea61c876a3eaf15/indice.json"
     },
     {
       "competition": "Serie B (Itália)",
@@ -106,7 +109,8 @@
           "name": "06.json",
           "path": "dados/serie-b-italia-2025-26-b078e9e6b6169464/originais/01124099-0dd0-4f37-b8e2-9fa64d2ef398/06-06.json"
         }
-      ]
+      ],
+      "search": "dados/serie-b-italia-2025-26-b078e9e6b6169464/indice.json"
     },
     {
       "competition": "Brasileirão Série C",
@@ -145,7 +149,8 @@
           "name": "08.json",
           "path": "dados/brasileirao-serie-c-2026-4cc481b2c0464d61/originais/dc538689-0f17-450c-8af8-b5da6d383b75/08-08.json"
         }
-      ]
+      ],
+      "search": "dados/brasileirao-serie-c-2026-4cc481b2c0464d61/indice.json"
     },
     {
       "competition": "Liga Portugal Betclic",
@@ -176,7 +181,8 @@
           "name": "06.json",
           "path": "dados/liga-portugal-betclic-2025-26-5d33b80a99bdfd06/originais/ac340df3-9a72-49a4-ae0b-c712ad4e4dbb/06-06.json"
         }
-      ]
+      ],
+      "search": "dados/liga-portugal-betclic-2025-26-5d33b80a99bdfd06/indice.json"
     },
     {
       "competition": "Liga Portugal 2",
@@ -207,7 +213,8 @@
           "name": "06.json",
           "path": "dados/liga-portugal-2-2025-26-50ac433cf9304cfc/originais/29c82577-75c5-4471-8945-5b5c78a90cf2/06-06.json"
         }
-      ]
+      ],
+      "search": "dados/liga-portugal-2-2025-26-50ac433cf9304cfc/indice.json"
     },
     {
       "competition": "LaLiga",
@@ -238,7 +245,8 @@
           "name": "06.json",
           "path": "dados/laliga-2025-26-04bdcd21a9cf3d04/originais/96b04066-32ac-4806-94f5-ef8c8e347366/06-06.json"
         }
-      ]
+      ],
+      "search": "dados/laliga-2025-26-04bdcd21a9cf3d04/indice.json"
     },
     {
       "competition": "Bundesliga",
@@ -265,7 +273,8 @@
           "name": "05.json",
           "path": "dados/bundesliga-2025-26-937ddd3a045cc894/originais/a9b90c6b-c2e3-4252-8d15-ed9604904bf7/05-05.json"
         }
-      ]
+      ],
+      "search": "dados/bundesliga-2025-26-937ddd3a045cc894/indice.json"
     },
     {
       "competition": "Serie A (Itália)",
@@ -296,7 +305,8 @@
           "name": "06.json",
           "path": "dados/serie-a-italia-2025-26-ff8488ba783fcadc/originais/dfa831ab-5ca9-4059-8a68-afd3414a77c1/06-06.json"
         }
-      ]
+      ],
+      "search": "dados/serie-a-italia-2025-26-ff8488ba783fcadc/indice.json"
     },
     {
       "competition": "Ligue 1",
@@ -327,7 +337,8 @@
           "name": "06.json",
           "path": "dados/ligue-1-2025-26-ae941f95f3d43a59/originais/207b55c5-9567-4ad5-85d0-2e54d7023c37/06-06.json"
         }
-      ]
+      ],
+      "search": "dados/ligue-1-2025-26-ae941f95f3d43a59/indice.json"
     },
     {
       "competition": "Liga Profesional de Fútbol",
@@ -378,7 +389,8 @@
           "name": "11.json",
           "path": "dados/liga-profesional-de-futbol-2026-357754ed665def97/originais/4414635e-46e6-42c5-9abe-f0c1f9912124/11-11.json"
         }
-      ]
+      ],
+      "search": "dados/liga-profesional-de-futbol-2026-357754ed665def97/indice.json"
     },
     {
       "competition": "División Profesional (Bolívia)",
@@ -409,7 +421,8 @@
           "name": "06.json",
           "path": "dados/division-profesional-bolivia-2026-75e84840be4ae3f7/originais/6da68bd0-c8ae-48c9-94b5-6a4b85243339/06-06.json"
         }
-      ]
+      ],
+      "search": "dados/division-profesional-bolivia-2026-75e84840be4ae3f7/indice.json"
     },
     {
       "competition": "Liga de Primera (Chile)",
@@ -436,7 +449,8 @@
           "name": "05.json",
           "path": "dados/liga-de-primera-chile-2026-3d652ca83b424d26/originais/76d3fdbb-6005-4be7-9112-5f0bbb9bff5f/05-05.json"
         }
-      ]
+      ],
+      "search": "dados/liga-de-primera-chile-2026-3d652ca83b424d26/indice.json"
     },
     {
       "competition": "Primera A (Colômbia)",
@@ -475,7 +489,8 @@
           "name": "08.json",
           "path": "dados/primera-a-colombia-2026-39d3825ed11c0022/originais/daf4d170-a21f-4ce3-921e-6072a2a5f653/08-08.json"
         }
-      ]
+      ],
+      "search": "dados/primera-a-colombia-2026-39d3825ed11c0022/indice.json"
     },
     {
       "competition": "LigaPro Serie A",
@@ -502,7 +517,8 @@
           "name": "05.json",
           "path": "dados/ligapro-serie-a-2026-6535ca33ae93371a/originais/a4c21f92-0222-416f-8034-10b963333a47/05-05.json"
         }
-      ]
+      ],
+      "search": "dados/ligapro-serie-a-2026-6535ca33ae93371a/indice.json"
     },
     {
       "competition": "Primera División (Paraguai)",
@@ -525,7 +541,8 @@
           "name": "04.json",
           "path": "dados/primera-division-paraguai-clausura-2026-85d46b316d8a8997/originais/f310e325-6369-46ec-92d1-49e12c30d7a7/04-04.json"
         }
-      ]
+      ],
+      "search": "dados/primera-division-paraguai-clausura-2026-85d46b316d8a8997/indice.json"
     },
     {
       "competition": "Liga 1 Te Apuesto",
@@ -556,7 +573,8 @@
           "name": "06.json",
           "path": "dados/liga-1-te-apuesto-2026-8174bbf7f646f250/originais/ccf9cc6b-03a1-4f7f-b6ff-f0f5e02c489a/06-06.json"
         }
-      ]
+      ],
+      "search": "dados/liga-1-te-apuesto-2026-8174bbf7f646f250/indice.json"
     },
     {
       "competition": "Liga AUF Uruguaya",
@@ -587,7 +605,8 @@
           "name": "06.json",
           "path": "dados/liga-auf-uruguaya-2026-e669a628c643c34d/originais/c35ea2c7-c4a4-4a5d-b81e-da07a3d24ba0/06-06.json"
         }
-      ]
+      ],
+      "search": "dados/liga-auf-uruguaya-2026-e669a628c643c34d/indice.json"
     },
     {
       "competition": "Liga FUTVE",
@@ -618,7 +637,8 @@
           "name": "06.json",
           "path": "dados/liga-futve-2026-202f2a4c2b2df6f9/originais/79015208-5a87-40d2-8e59-fe78dc245e26/06-06.json"
         }
-      ]
+      ],
+      "search": "dados/liga-futve-2026-202f2a4c2b2df6f9/indice.json"
     },
     {
       "competition": "Liga MX",
@@ -645,7 +665,8 @@
           "name": "05.json",
           "path": "dados/liga-mx-apertura-2026-1d303c743202ff7e/originais/a36c1473-bc91-4b57-bc4e-c35af41bc524/05-05.json"
         }
-      ]
+      ],
+      "search": "dados/liga-mx-apertura-2026-1d303c743202ff7e/indice.json"
     },
     {
       "competition": "Ligue 2",
@@ -676,7 +697,8 @@
           "name": "06.json",
           "path": "dados/ligue-2-2025-26-c50c17c5ff0689c2/originais/7bf082b8-0ad3-43ce-8695-d062952a1396/06-06.json"
         }
-      ]
+      ],
+      "search": "dados/ligue-2-2025-26-c50c17c5ff0689c2/indice.json"
     },
     {
       "competition": "LaLiga 2",
@@ -711,7 +733,8 @@
           "name": "07.json",
           "path": "dados/laliga-2-2025-26-f0de7572dd8359f2/originais/512c2105-e2df-4e8a-a3b8-0b114bf87c49/07-07.json"
         }
-      ]
+      ],
+      "search": "dados/laliga-2-2025-26-f0de7572dd8359f2/indice.json"
     },
     {
       "competition": "2. Bundesliga",
@@ -742,7 +765,8 @@
           "name": "06.json",
           "path": "dados/2-bundesliga-2025-26-505a289240a2e119/originais/121beb46-2c3f-4364-bd2f-9939f79963e4/06-06.json"
         }
-      ]
+      ],
+      "search": "dados/2-bundesliga-2025-26-505a289240a2e119/indice.json"
     },
     {
       "competition": "Brasileirão Série B",
@@ -781,7 +805,8 @@
           "name": "08.json",
           "path": "dados/brasileirao-serie-b-2026-09472a4f6d4c34de/originais/fd1be535-d39b-41b3-9580-847b5d8ee14f/08-08.json"
         }
-      ]
+      ],
+      "search": "dados/brasileirao-serie-b-2026-09472a4f6d4c34de/indice.json"
     },
     {
       "competition": "Primera Nacional",
@@ -840,7 +865,8 @@
           "name": "13.json",
           "path": "dados/primera-nacional-2026-d80227d058a4f155/originais/82ba2071-7ae7-47b8-863c-c8857b30d617/13-13.json"
         }
-      ]
+      ],
+      "search": "dados/primera-nacional-2026-d80227d058a4f155/indice.json"
     },
     {
       "competition": "Copa Simón Bolívar",
@@ -867,7 +893,8 @@
           "name": "05.json",
           "path": "dados/copa-simon-bolivar-2026-c1de01804a9d1525/originais/ab12b8f9-1a6c-4b94-8477-de5d55f7993f/05-05.json"
         }
-      ]
+      ],
+      "search": "dados/copa-simon-bolivar-2026-c1de01804a9d1525/indice.json"
     },
     {
       "competition": "Liga de Ascenso (Chile)",
@@ -894,7 +921,8 @@
           "name": "05.json",
           "path": "dados/liga-de-ascenso-chile-2026-e7361b04d0679aba/originais/8905492e-3d3b-4147-aeee-5ff22e6adc70/05-05.json"
         }
-      ]
+      ],
+      "search": "dados/liga-de-ascenso-chile-2026-e7361b04d0679aba/indice.json"
     },
     {
       "competition": "Categoría Primera B (Colômbia)",
@@ -929,7 +957,8 @@
           "name": "07.json",
           "path": "dados/categoria-primera-b-colombia-2026-4d3e08351ffb5143/originais/d6e2a7eb-feec-4b56-9bd4-cfdf3d9b4bf2/07-07.json"
         }
-      ]
+      ],
+      "search": "dados/categoria-primera-b-colombia-2026-4d3e08351ffb5143/indice.json"
     },
     {
       "competition": "LigaPro Serie B",
@@ -952,7 +981,8 @@
           "name": "04.json",
           "path": "dados/ligapro-serie-b-2026-7ab5916618b6efe3/originais/0ce90571-9d15-49c3-a1c2-08045fc82cf7/04-04.json"
         }
-      ]
+      ],
+      "search": "dados/ligapro-serie-b-2026-7ab5916618b6efe3/indice.json"
     },
     {
       "competition": "División Intermedia",
@@ -983,7 +1013,8 @@
           "name": "06.json",
           "path": "dados/division-intermedia-2026-e52d22f6d17d3067/originais/d82b51fc-c6e5-4c1e-8b7d-40cc1d694e1e/06-06.json"
         }
-      ]
+      ],
+      "search": "dados/division-intermedia-2026-e52d22f6d17d3067/indice.json"
     },
     {
       "competition": "Segunda División (Uruguai)",
@@ -1010,7 +1041,8 @@
           "name": "05.json",
           "path": "dados/segunda-division-uruguai-2026-543a7631f80a1104/originais/89294c2d-3649-46b7-8c23-efdc698d16de/05-05.json"
         }
-      ]
+      ],
+      "search": "dados/segunda-division-uruguai-2026-543a7631f80a1104/indice.json"
     }
   ]
 }
